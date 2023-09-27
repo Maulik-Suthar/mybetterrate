@@ -1,0 +1,298 @@
+/* Lead Gen Tool */
+.leadGenSec{display: block; width: 100%; background-color: #fff; padding: 13rem 19rem 15rem 19rem;}
+.leadpopBox{display: block; width: 100%; box-shadow: 37px 44px 118.75px 6.25px rgba(0, 0, 0, 0.08); padding: 2rem; position: relative;}
+.leadpopClose {position: absolute; right:4rem; top:3rem; z-index: 2; cursor: pointer;}
+.leadpopClose:before {content: ''; width: 2.8rem; position: absolute; top: 0; left: 0;
+right: 0; height: 0.4rem; background: #4a74fe; -webkit-transform: rotate(45deg); transform: rotate(45deg); margin: auto; bottom: 0; transition: all 0.4s ease-in-out;}
+.leadpopClose:after {content: ''; width: 2.8rem; position: absolute; top: 0; left: 0; right: 0; height:0.4rem; background: #4a74fe;
+-webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin: auto; bottom: 0; transition: all 0.4s ease-in-out;}
+
+.leadpopClose:hover:after,.leadpopClose:hover:before {background: #000;}
+
+.leadFoot{/*display: block; width: 100%; */border-top: 1px solid #eaeaea; padding: 2.4rem 3rem 0; clear: both;}
+.leadFoot .copyRightLogo{padding-right: 0}
+.leadFoot .copyRightLogo img {width:10rem; max-height:100%;}
+.leadFoot .copyRightLogoFirst img  {width: 75px;}
+.leadFoot .copyRightCon p {font-size: 1.6rem;}
+.leadFoot .aime-logo.copyRightLogo {width: 80px;}
+
+.leadSteps{display: block; width: 100%; min-height: 6.6rem; position: relative;}
+
+.leadStep{display: flex; flex-wrap: wrap;}
+.leadLeft{width: 50%; padding: 6.8rem 7.4rem 6.5rem 4.5rem;}
+.leadTitle{display: block; font:700 10.9rem/0.8 "Sofia Pro"; color: #000000; margin-bottom: 6rem;}
+.guaranteed{margin-top: 7rem; font-size: 1.6rem; font-weight: 700; color: #000000;}
+.guaranteed img{display: inline-block; width: 2.7rem; vertical-align: middle; margin-right: 0.8rem;}
+
+.leadRight{width: 50%; padding: 0 4.2rem 0 9.2rem; margin: 6.8rem 0 6.5rem 0;  border-left: 0.3rem solid #e3e3e3;}
+.leadFormTitle{display: block; font:700 5rem/1.4 'Roboto Condensed', sans-serif; color: #000; margin-bottom: 3rem; letter-spacing: -0.4rem;}
+.leadFormTitle span {font-weight: 500;}
+.leadFiturees li { display: block; text-align: left; width: 100%; padding-left: 3rem; position: relative; font-size: 1.6rem; line-height: 1.4; color: #000000; margin-bottom: 1rem;}
+.leadFiturees li:before { content: ""; width: 1.8rem; height: 1.8rem; background: url(../img/svg/checkmark.svg) no-repeat left center; position: absolute; left: 0; top: 0;}
+
+.zipCode{display: inline-block; margin-top: 3rem; width: auto;  margin-left: -2.5rem; text-align: center;}
+.zipCode .zipLabel{display: block; font: 700 5.4rem/1.2 'Roboto Condensed', sans-serif; color: #000000; margin-bottom: 2.5rem; letter-spacing: -0.2rem;}
+.inputMain{display: block; position: relative;}
+.zipcodeinput{display: inline-block; width: 22.4rem; height: 8rem; background: #f3f3f3; padding: 1rem 3rem; font: 400 4.9rem/1.4 'Roboto Condensed', sans-serif; color: #000000; -webkit-appearance: none; appearance: none;}
+.zipCode .btn{margin-top: 4.8rem}
+
+.leadImg{float: right; width: 27.6rem; margin-top:3.1rem;}
+
+
+.stepsProgress{display: block; width: 100%; text-align: center;}
+.progressBar{display: inline-block; width: 62rem; height: 1.3rem; background-color: #f3f3f3; border-radius: 6rem;  position: relative; margin-top: 2rem;}
+.progressBar:before{content: attr(data-progress); position: absolute; left: 0; bottom: 100%; font:700 2rem/1.4 'Roboto', sans-serif; color: #000;}
+.progressBar .progress{position: absolute; left: 0; top: 0; bottom: 0; width: 0; height: 100%; border-radius: 6rem; background-color: #4a74fe;}
+
+
+/* form step */
+
+#msform, .msform {text-align: center; position: relative;}
+#msform fieldset, .msform fieldset {background: white; border: 0 none; border-radius: 0.5rem; box-sizing: border-box;
+width: 100%; margin: 0; padding-bottom: 2rem; position: relative}
+#msform fieldset:not(:first-of-type), .msform fieldset:not(:first-of-type) {display: none;}
+
+.progress {background-color: #f3f3f3; border-radius: 6rem; max-width: 62rem; margin: auto; position: relative;
+overflow: inherit; height: 1.3rem; margin-top: 3rem;}
+.progress-bar, .progress-bar1, .progress-bar2 {background-color: #4a74fe; border-radius: 6rem;}
+.progress_value, .progress_value1, .progress_value2{position: absolute; left: 0; top:-29px; font: 700 2rem/1.4 'Roboto', sans-serif; color: #000;}
+
+.fullStep{display: block; width: 100%; padding: 7rem;}
+.stepLabel{display: block; text-align: center; font:700 5rem/1.4 'Roboto Condensed', sans-serif; color: #000; margin-bottom: 3rem; letter-spacing:-0.2rem;}
+.stepLabel sup {font-weight: 600; font-size: 36px;}
+.steps-btns {width: 100%; display: block; padding: 0 6rem;}
+.leadStep .leadLeft, .leadStep .leadRight {text-align: left;}
+
+.backStep {position: relative; font-size: 2rem; font-weight: 600; padding:0 0 3rem 2.5rem; float: left; margin-left:6rem; transition: all 0.4s ease-in-out;}
+.backStep:before {content: ""; position: absolute; left:0; top:0.4rem; width: 2rem; height: 2rem;
+border-left: 0.7rem solid #000; border-bottom: 0.7rem solid #000; transform: rotate(45deg); margin: auto;
+border-top: 0; border-right: 0; border-radius: 0.1rem; z-index: 3; transition: border 0.4s ease-in-out;
+}
+
+.backStep:hover:before {border-color: #1ba8f1;}
+
+.nextStep {position: relative; font-size: 2rem; font-weight: 600; padding:0 2.5rem 3rem 0; float: right; margin-right:6rem; transition: all 0.4s ease-in-out;}
+.nextStep:before {content: ""; position: absolute; right:0; top:0.4rem; width: 2rem; height: 2rem; border-left: 0.7rem solid #000;
+border-bottom: 0.7rem solid #000; transform: rotate(-135deg); margin: auto; border-top: 0; border-right: 0;
+border-radius: 0.1rem; z-index: 3; transition: border 0.4s ease-in-out;}
+
+.nextStep:hover:before {border-color: #1ba8f1;}
+
+.fullStep .redio-main-box {text-align: center;}
+.fullStep .role-list {display: block; margin-bottom: 20px;}
+.fullStep .custom-redio input[type="checkbox"] + label, 
+.fullStep .pure-radiobutton input[type="checkbox"] + label, 
+.fullStep .custom-redio input[type="radio"] + label, 
+.fullStep .pure-radiobutton input[type="radio"] + label
+{width: 615px; padding: 2.4rem 1.7rem;}
+
+.fullStep .custom-redio input[type="radio"] + label:before, 
+.fullStep .pure-radiobutton input[type="radio"] + label:before, 
+.fullStep .custom-redio input[type="radio"] + label:after, 
+.fullStep .pure-radiobutton input[type="radio"] + label:after {border-radius: 6rem;}
+
+.fullStep .custom-redio .checkbox-text-right {text-transform: uppercase; font-family:'Roboto Condensed', sans-serif; font-size: 2.4rem;}
+
+.fullStep .redio-main-box {width: 680px; margin: 0 auto;}
+
+.fullStep .redio-main-box.scroll_sl {max-height:404px; overflow-y:auto;}
+
+.fullStep .redio-main-box .mCSB_outside + .mCSB_scrollTools {right:0;}
+
+.fullStep .redio-main-box .mCSB_scrollTools .mCSB_buttonUp, 
+.fullStep .redio-main-box .mCSB_scrollTools .mCSB_buttonDown, 
+.fullStep .redio-main-box .mCSB_scrollTools .mCSB_buttonLeft, 
+.fullStep .redio-main-box .mCSB_scrollTools .mCSB_buttonRight {
+    background-image: url(../img/scroll-arrow.png); background-repeat: no-repeat; opacity: 1;}
+
+.fullStep .redio-main-box .mCS-light-thick.mCSB_scrollTools .mCSB_buttonUp {background-position: 0 0;}
+
+.fullStep .redio-main-box .mCS-light-thick.mCSB_scrollTools .mCSB_buttonDown {background-position: 0px -23px;}
+
+.fullStep .redio-main-box .mCSB_scrollTools {width: 20px;}
+
+.fullStep .redio-main-box .mCS-light-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, 
+.fullStep .redio-main-box .mCS-dark-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+{background-color: rgba(243,243,243,1);}
+
+.fullStep .redio-main-box .mCS-light-thick.mCSB_scrollTools .mCSB_draggerRail, 
+.fullStep .redio-main-box .mCS-dark-thick.mCSB_scrollTools .mCSB_draggerRail {background-color: rgba(243,243,243,0.5);}
+
+.innerForm {max-width: 494px; margin: auto;}
+.inputformField{position: relative; padding: 1.5rem 3.4rem; width:100%; min-height: 8.2rem; margin-bottom: 0;
+vertical-align: middle; border: 0.4rem solid #4d76fe; text-align: left; transition: border 0.4s ease;
+border-radius:6rem; font-family:'Roboto Condensed', sans-serif; font-size:2.4rem; font-weight: 700; color:#7f7f7f;}
+
+.formcol {margin-bottom: 20px;}
+.innerForm .formcol .btn{width: 100%; font-family:'Roboto Condensed', sans-serif; font-size: 2.4rem; letter-spacing:inherit; padding: 1.5rem 3.4rem; min-height: 8.2rem;}
+
+.innerForm .guaranteed{margin-top: 5px;}
+
+.leadlogo {margin-bottom: 50px;}
+.leadlogo img {display: block; width: 535px;}
+
+.leadStep .leadFormTitle {line-height: 1.2; letter-spacing: -0.2rem;}
+.leadStep .smll-text {font-size:16px;}
+
+.leadRight .guaranteed {margin-top: 4rem;}
+
+
+.rangesliderMain {max-width:868px; margin: 0 auto; padding-top: 5rem;}
+
+.rangesliderMain .ui-slider-horizontal .ui-slider-range { background-color: #4a74fe;  border-radius: 6rem; }
+
+.rangesliderMain .ui-widget.ui-widget-content {background: #f3f3f3; border: 0; border-radius: 6rem;}
+
+.rangesliderMain .ui-slider .ui-slider-handle {box-shadow:none; border-radius: 50%; height:4rem; width:4rem; background: #4a74fe;
+  border:0; top: -1.5rem;}
+
+.rangesliderMain .ui-slider .ui-slider-handle:after {
+    content: "";
+    position: absolute;
+    left:1rem;
+    top: 1.5rem;
+    width:1rem;
+    height: 1rem;
+    border-left:0.4rem solid #fff;
+    border-bottom:0.4rem solid #fff;
+    transform: rotate(45deg);
+    margin: auto;
+    border-top: 0;
+    border-right: 0;
+    border-radius:1px;
+    z-index: 3;
+    transition: border 0.4s ease-in-out;
+}
+.rangesliderMain .ui-slider .ui-slider-handle:before {
+    content: "";
+    position: absolute;
+    right:1rem;
+    top: 1.5rem;
+    width:1rem;
+    height: 1rem;
+    border-left: 0.4rem solid #fff;
+    border-bottom: 0.4rem solid #fff;
+    transform: rotate(-135deg);
+    margin: auto;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 1px;
+    z-index: 3;
+    transition: border 0.4s ease-in-out;
+}
+
+.fixed_value {display: flex; flex-wrap:wrap; margin-top: 2rem;}
+.fixed_min {flex: 0 0 auto; width: 50%;  text-align: left; font-size: 1.9rem; font-weight: 600; color: #000;}
+.fixed_max {flex: 0 0 auto; width: 50%; text-align: right; font-size: 1.9ren; font-weight: 600; color: #000;}
+
+.range_amount {margin-bottom: 2rem;}
+.range_amount span {font-family: 'Roboto Condensed', sans-serif; font-size: 4rem; font-weight: 700; text-align: center;}
+
+.range_continue {margin-top: 7rem;}
+.range_continue .btn {min-width: 340px; font-size: 2.4rem; font-family: 'Roboto Condensed', sans-serif; letter-spacing: inherit; padding: 1.8rem 4.8rem;}
+
+.leadgen_popup .modal-dialog {max-width: 80%;}
+.leadgen_popup .modal-dialog .modal-content {padding:0px; border: 0; border-radius:0;}
+
+
+/* Responsive css  */
+
+@media only screen and (max-width: 1366px) {
+
+/*.nextStep {padding: 0 18px 30px 0;}
+.nextStep:before {top:8px;}*/
+
+/*.backStep {padding: 0 0 30px 18px;}*/
+/*.backStep:before {top:8px;}*/
+
+.fullStep .redio-main-box.scroll_sl {max-height: 346px;}
+
+.leadgen_popup .modal-dialog {max-width: 1020px;}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+ /*.leadpopClose:before, .leadpopClose:after {width:24px;}*/
+ .leadTitle {font: 700 9.9rem/0.8 "Sofia Pro";} 
+ .fullStep .redio-main-box.scroll_sl {max-height: 285px;}
+
+.leadgen_popup .modal-dialog {max-width: 990px;}
+.rangesliderMain {max-width: 668px;}
+
+.leadFoot .copyRightLogoFirst img {width: 60px;}
+
+}
+
+@media only screen and (max-width: 991px) {
+.leadGenSec {padding: 13rem 5rem 15rem 5rem;}
+.fullStep .custom-redio input[type="checkbox"] + label, .fullStep .pure-radiobutton input[type="checkbox"] + label, .fullStep .custom-redio input[type="radio"] + label, .fullStep .pure-radiobutton input[type="radio"] + label
+{width: 88%;}
+.fullStep .redio-main-box {width: 420px;}
+.leadTitle {font: 700 8.7rem/0.9 "Sofia Pro";}
+.leadlogo {margin-bottom: 2rem;}
+.nextStep {margin-right: 2rem;}
+.backStep {margin-left: 2rem;}
+.leadgen_popup .modal-dialog {max-width: 740px;}
+}
+
+@media only screen and (max-width: 767px) {
+.fullStep {padding: 3rem;}
+/*.progress {margin-top: 10px;}*/
+.progress_value{top: -15px;}
+.leadLeft {width: 100%; padding:3.8rem 2rem 3.8rem 2rem;}
+.leadTitle {font: 700 5.7rem/0.9 "Sofia Pro"; margin-bottom: 3rem;}
+.leadTitle br{display: none;}
+.leadRight {width: 100%; padding: 3.8rem 2rem 0rem 2rem; border-left: 0; border-top: 0.3rem solid #e3e3e3; margin-top:0; margin-bottom:0;}
+.leadLeft .guaranteed {margin-top: 3rem;}
+
+.fullStep .custom-redio input[type="checkbox"] + label, .fullStep .pure-radiobutton input[type="checkbox"] + label, .fullStep .custom-redio input[type="radio"] + label, .fullStep .pure-radiobutton input[type="radio"] + label
+{padding: 2rem 1.7rem;}
+
+.fullStep .role-list {margin-bottom: 10px;}
+
+.stepLabel {font-size: 4.75rem; line-height: 1.2;}
+.stepLabel sup {font-size: 16px;}
+
+.formcol {margin-bottom: 12px;}
+.inputformField {padding: 2rem 3.4rem; font-size: 16px;}
+.innerForm .formcol .btn {padding: 2rem 3.4rem; font-size: 16px;}
+
+/*.nextStep {margin-right:20px; padding:0 12px 0px 0px; font-size: 16px;}*/
+/*.nextStep:before {top: 5px;}*/
+/*.backStep {margin-left:20px; padding: 0 0 0px 12px;  font-size: 16px;}*/
+/*.backStep:before {top: 5px;}*/
+.fullStep .redio-main-box {width: 100%;}
+/*.leadpopClose {right: 30px; top: 20px;}
+.leadpopClose:before, .leadpopClose:after {width: 20px; height: 3px;}
+*/
+/*.fullStep .redio-main-box.scroll_sl {max-height: 212px;}*/
+.fullStep .redio-main-box .mCSB_outside + .mCSB_scrollTools {right:-12px;}
+
+.range_amount {margin-bottom: 15px;}
+.rangesliderMain {padding-top: 10px;}
+/*.rangesliderMain .ui-slider .ui-slider-handle {height: 30px; width: 30px; top: -13px;}
+.rangesliderMain .ui-slider .ui-slider-handle:after {left: 7px; top: 10px; border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;}
+.rangesliderMain .ui-slider .ui-slider-handle:before {right:7px; top: 10px; border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;}*/
+.fixed_value {margin-top: 10px;}
+/*.fixed_min, .fixed_max {font-size:16px;}*/
+
+.range_continue {margin-top: 5rem;}
+.range_continue .btn {min-width: 240px;}
+
+/*.leadFoot .copyRightCon p {font-size: 12px;}*/
+.leadFoot .copyRightLogoFirst img {width: 50px;}
+
+
+}
+
+@media only screen and (max-width: 479px) {
+.progress {max-width:48rem;}
+.leadlogo img {width: 250px;}
+}
+

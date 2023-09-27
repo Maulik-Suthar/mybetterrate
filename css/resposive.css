@@ -1,0 +1,298 @@
+/* css only for hover effect all hover effect must write in this Media query */
+@media only screen and (max-width: 1920px) {
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+@media only screen and (max-width: 1660px) {
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 1599px) {
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1366px) {
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+ 
+
+/* common css for below screen 1199 */
+
+@media only screen and (max-width: 1199px) {
+p{font-size: 2.8rem;}	
+.headerMain{padding: 2rem 3rem;}
+.headerMain .btn{margin-right: 2rem;}
+.menuMain{margin: 0 2rem 0 0;}
+.btn{font-size: 2rem;}	
+.headerMain .siteLogo img{width: 34rem;}	
+.menuMain li{font-size: 2.2rem}	
+.bannerSec{min-height: 82vh;}
+.commonSec{padding: 15rem 0;}
+.whatwedoSec{    padding-left: 10rem; padding-right: 5rem;}
+.socialMedia a{font-size: 3rem;}
+.bannerCon{max-width: 76rem;  margin: 36rem 0 10rem 13rem;}
+.bannerCon p br{display: none;}
+
+.applyLeft{padding: 10rem 8rem 10rem 16rem;}
+
+#singleton #getfreeratequotestext{max-width: 100%; font-size: 2.5rem;}
+.quoteCon p{max-width: 100%}
+.footerMain{padding: 10rem 8rem 0;}
+.footBox .footBoxTitle, .footBox ul li{font-size: 3rem}
+.copyRight{padding: 5.2rem 0rem}
+}
+
+
+/* common css for below screen 991 */
+
+@media only screen and (max-width: 991px) {
+html{font-size: 0.677vw}
+.headerMain { padding: 3rem 4rem;}	
+.headerMain .siteLogo img {width: 40rem;}
+.menuIcon { display: inline-block; vertical-align: middle;}
+.m_menuLogo{display: block;width: 100%;padding: 15px 15px 15px;border-bottom: 1px solid #edecec;
+background: #f2f2f2;display: block;width: 100%;}
+.headerMain .m_menuLogo .menuLogo{max-width: 220px; display: block;}
+.headerMain .m_menuLogo .menuLogo img{filter:none;}
+.m_menuLogo .closeMenu { position: absolute; right: 0; top: 0; /*background:#4a74fe;*/ width: 30px; height: 30px; padding: 6px;}
+.m_menuLogo .closeMenu:before { content: ''; width: 22px; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: #000; -webkit-transform: rotate(45deg); transform: rotate(45deg); margin: auto; bottom: 0;}
+.m_menuLogo .closeMenu:after { content: ''; width: 22px; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: #000; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin: auto; bottom: 0;}
+.navigationBar { position: fixed; width: 300px; top: 0; bottom: 0; left: -320px; background: #fff; transition: all .6s ease-in-out; margin: 0; z-index: 9999; overflow-y: auto;}
+.navigationBar.slideMenu{left: 0;}
+.menuMain{width: 100%;margin-bottom: 2rem; display: block;}
+.menuMain li{width: 100%; display: block; border-bottom: 1px solid #e2e2e2; padding:0; margin:0; position: relative;}
+.menuMain li a{display: block; width: 100%; padding: 10px 15px; text-align: left;}
+.menuMain > ul > li > a{ font-size: 14px; font-weight: 500;color: #000;}
+.navigationBar .btn.btn-light.btn-outline{margin: 1rem auto !important; color: #fff !important; background: #4a74fe; display: table; min-width: 200px; border-color: #4a74fe;}
+.navigationBar .socialMedia{ display: table; width: 100%;  position: absolute; left: 0; right: 0; bottom: 0; background: #4766fe;
+/*background: -moz-linear-gradient(45deg,  #4766fe 0%, #63e2ff 100%);
+background: -webkit-linear-gradient(45deg,  #4766fe 0%,#63e2ff 100%);
+background: linear-gradient(45deg,  #4766fe 0%,#63e2ff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4766fe', endColorstr='#63e2ff',GradientType=1 );*/
+}
+.navigationBar .socialMedia a{padding: 2rem; display: table-cell; text-align: center;    border-left: 1px solid #fff;}
+
+.headerMain.has_sticky{padding: 3rem;}
+.headerMain.has_sticky .menuIcon{color: #000}
+/*.navigationBar .socialMedia a.facebook{background: #4267b2}
+.navigationBar .socialMedia a.instagram{background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);}
+.navigationBar .socialMedia a.twitter{background: #1da1f2}
+.navigationBar .socialMedia a.linkedin{background: #0e76a8}*/
+
+.bannerSec{min-height: 60vh;}
+.bannerCon{max-width: 72rem; margin: 30rem 0 10rem 4rem}
+.bannerCon .bannerTitle{font-size: 8rem;line-height: 1.2;}
+.bannerCon p{margin-bottom: 4rem}
+
+.secHead .secSubTitle{font-size: 4rem}
+.secHead p{max-width: 80%;}
+.whatwedoSec { padding-left: 4rem; padding-right: 2rem;}
+.wedoBox .wedoIcon{width: 30rem; height: 30rem;}
+.wedoBox .wedoCon{width: calc(100% - 30rem);}
+
+.monyMetterSec{padding-left: 0; }
+.monyMetterSecbg{min-height: 60vh;}
+.monyMetterCon{left: 0}
+.monyMetterTitle{font-size: 8rem;}
+
+.freeToolSec{padding: 4rem;}
+.toolWrap{padding: 6rem;}
+.freeToolTabs .verticalTabs{padding-right: 2rem;}
+.freeToolTabs .tab-content{padding-left: 3rem;}
+
+.quoteSec{padding: 10rem 5rem}
+.quoteCon {padding-right: 3rem;}
+.quoteHead .quoteTitle{font-size: 12rem;}
+.quoteHead .quoteSubTitle{font-size: 5rem;}
+.quoteCon p br{display: none;}
+
+.expertSec{background-position: right 0% center;}
+.applyLeft { padding: 6rem 6rem 6rem 8rem; }
+.applyCon .applyTitle{font-size: 12rem; line-height: 1.2}
+.footerMain { padding: 8rem 6rem 0;}
+
+.navigationBar .socialMedia a {color: #fff !important;}
+.headerMain.has_sticky .socialMedia a {color: #fff;}
+
+}
+
+
+
+/* common css for below screen 767 */
+
+@media only screen and (max-width: 767px) {
+.headerMain.has_sticky .siteLogo img{width: 32rem;}	
+html{font-size: 5px}	
+p{font-size: 3rem;}
+.btn { font-size: 2.5rem;}
+.bannerSec { min-height: 320px; }
+.bannerCon{max-width: 100%; width: 360px; margin: 25rem 0 10rem 0; padding: 0 15px;}
+.bannerCon .bannerTitle{font-size: 7rem}
+.commonSec{padding: 50px 15px;}
+.secHead .secSubTitle{margin-bottom: 5px;    font-size: 3rem;}
+.secHead .secTitle{    font-size: 8rem; margin-bottom: 2rem}
+.secHead p{max-width: 100%;}
+.whatwedoTabs{display: block !important;}
+.verticalTabs { width: auto; display: flex; overflow: auto;  flex-wrap: nowrap; margin: 0 -15px; overflow: auto; border-bottom: 1px solid #e2e2e2; align-items: flex-end; }
+.verticalTabs li{padding: 4px 8px;font-size: 16px;min-width: 120px;text-align: center;}
+.verticalTabs li a{position: relative;line-height: 1;letter-spacing: 0;}
+.verticalTabs li a:before{content: ""; width: 0; height: 2px; position: absolute; left: 0; right: 0; bottom: -4px; background: #4a74fe;}    
+.verticalTabs li a.active:before{width: 100%;}
+.verticalTabs + .tab-content{width: 100%;padding: 15px 0 0 0}
+.wedoBox{display: block; text-align: center;}
+.wedoBox .wedoIcon{width: 20rem; height: 18rem; margin: auto; margin-bottom: -3px;}
+.wedoBox .wedoIcon img{width: 10rem;}
+.wedoBox .wedoCon { width: 100%; padding: 25px;}
+
+.monyMetterSecbg { min-height: 440px; background-size: auto 150%;}
+.monyMetterCon{max-width: 100%}
+.monyMetterCon .btn.btn-outline{letter-spacing: 0}
+.toolWrap{padding: 00;}
+.freeToolTabs .freeToolLeft{width: 100%;display: inline-block; padding: 0	}
+.toolHeading{font-size: 6.5rem; text-align: center; margin: 6rem 0 5rem 0;}
+.freeToolTabs .freeToolLeft .verticalTabs{margin: 0;}
+.freeToolTabs .tab-content{width: 100%; border:none; padding: 30px 15px; text-align: center;}
+.freeToolTabs .freeToolLeft .verticalTabs li{min-width: 80px;}
+#singleton{padding: 0}
+.quoteHead{margin-bottom: 10rem;}
+.expertSec{padding: 40px 20px; text-align: center; background-image: none !important;}
+.expertTitle{font-size: 8rem;}
+
+.applyLeft { padding: 6rem 4rem 6rem 6rem; }
+.applyCon .applyTitle{font-size: 10rem; margin-bottom: 4rem;}
+.copyRightCon p{font-size: 12px;}
+.quoteCon{padding: 0;}
+
+.scrollTop {width: 8rem; height: 8rem;}
+.scrollTop span {padding: 1rem; margin-top: 2.5rem; border-width: 0 0.4rem 0.4rem 0;}
+.scrollTop:after {width: 0.4rem; height: 3rem; margin-top: 2.5rem;}
+
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip, .wpcf7-form-control-wrap label.error, .error {top:-36px;}
+
+.errorsec {padding: 50px 0 0;}
+.errorthktitle {font-size: 90px; line-height: 94px;}
+
+.thanksec {padding:30px 0;}
+.thanksec .thanktitle {font-size: 45px; padding-top: 0; padding-bottom:0;}
+.thanksec .thankdec {font-size: 20px; line-height: 1.4;}
+.thanksec .thankyou img {max-width:10%;}
+
+}
+
+
+
+@media only screen and (max-width: 568px) {
+.monyMetterSecbg {background: #fff; border: 20px solid #4a74fe; background-image: none !important; min-height: inherit;}
+.monyMetterCon{padding:40px 20px;text-align: center; width: 100%; position: relative; transform: none; top: inherit;}
+.monyMetterCon .btn.btn-outline{letter-spacing: 0}
+.monyMetterNote{padding: 6.5rem 3rem; text-align: center;}
+#singleton #getfreeinsurancequotestext{font-size: 5rem;}
+#singleton form.f-form input{margin-left: 0 }
+.freeToolSec { padding: 2rem; }
+.quoteHead .quoteTitle { font-size: 8rem; letter-spacing: -2px; }
+.expertCon p br{display: none;}
+.footText{margin: 15px 0 !important}
+.footBox{margin-bottom: 15px;}
+.footerMain{padding: 10rem 3rem 0;}
+.footNavbar { margin-top: 4rem; margin-bottom: 4rem;}
+.copyRightLogo img{max-height: 8rem; max-width: 12rem;}
+.copyRightCon{    width: calc(100% - 12.5rem); padding-left: 2rem;}
+.applyOnlineSec{    flex-wrap: wrap; flex-direction: column-reverse;}
+.applyLeft, .applyRight{width: 100%;}
+.applyLeft{padding: 10rem 3rem; text-align: center;}
+#singleton #getfreeratequotestext{margin-bottom: 4rem;}
+}
+
+
+
+/* common css for below screen 479 */
+
+@media only screen and (max-width: 479px) {
+
+.thanksec .thanktitle {font-size: 30px; line-height: 64px;}
+.thanksec .thankdec {font-size: 16px;}
+.thanksec .thankyou img {max-width: 15%;}
+
+}
+
+
+
+@media only screen and (max-width: 380px) {
+
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+.quoteHead .quoteTitle{font-size: 7rem;}
+
+}
+
+
+/* common css for screen size between 480 to 767 */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
+/* common css for screen size between 568 to 767 */
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+}
+
+
+/* common css for screen size between 600 to 767 */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+	
+}
+
+
+
+/* common css for screen size between 768 to 1199 */
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+
+}
+
+
+/* common css for screen size between 768 to 1023 */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* common css for screen size between 1024 to 1199 */
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+}	

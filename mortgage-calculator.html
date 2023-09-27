@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mortgage Calculator - Better Rate Mortgage, Inc.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/theme-icons.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/newstyle.css">
+<link rel="stylesheet" type="text/css" href="css/resposive.css">
+
+</head>
+
+<body>
+<div class="wrapper">
+<header class="headerMain darkheaderMain">
+		<div class="container-fluid">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-auto" >
+					<a class="siteLogo" href="#" title="Better Rate Mortgage, Inc."><img src="img/logo.svg" alt="Better Rate Mortgage, Inc."></a>
+				</div>
+				<div class="col-auto">
+					<div class="sidebar-overlay"></div>
+					<div class="navigationBar">
+					<nav class="menuMain">
+						<div class="m_menuLogo">
+			                <a class="menuLogo" href="#" title="Better Rate Mortgage, Inc."><img src="img/logo.svg" alt="Better Rate Mortgage, Inc."></a>
+			                <span class="closeMenu"></span>
+			            </div>
+						<ul>
+							<li><a href="#" title="HOME">HOME</a></li>
+							<li><a href="#" title="BUY A HOME ">BUY A HOME </a></li>
+							<li><a href="#" title="REFINANCE">REFINANCE</a></li>
+							<li><a href="#" title="Loan Options ">Loan Options </a></li>
+							<li><a href="#" title="RESOURCES">RESOURCES</a></li>
+							<li><a href="#" title="About Us">About Us</a></li>
+							<li><a href="#" title="Blog">Blog</a></li>
+						</ul>
+					</nav>
+					<a class="btn btn-light btn-outline" href="#" title="APPLY NOW">APPLY NOW</a>
+					<div class="socialMedia">
+						<a class="facebook" href="#" target="_black" title="Follow us on Facebook"><i class="icon icon-facebook"></i></a>
+						<a class="instagram" href="#" target="_black" title="Follow us on Instagram"><i class="icon icon-instagram"></i></a>
+						<a class="twitter" href="#" target="_black" title="Follow us on Twitter"><i class="icon icon-twitter"></i></a>
+						<a class="linkedin" href="#" target="_black" title="Follow us on Linkedin"><i class="icon icon-linkedin"></i></a>
+					</div>
+					</div>
+					<div class="menuIcon"> <span></span></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+<!-- refinance-calculator-form -->
+
+	<section class="reficalculSec">
+		<div class="bannerCon blackbannerCon">
+			<h1 class="bannerTitle wow fadeInUp"><span>Mortgage <u>Calculator</u></span></h1>
+			<div class="d-none d-md-block bannerContent wow fadeInUp" data-wow-delay="0.1s">
+				<p>Use this calculator to estimate your monthly mortgage payment, including taxes and insurance. Simply enter the price of the home, your down payment, and details about the home loan to calculate your payment breakdown, schedule and more.</p>
+			</div>
+		</div>
+
+		<div class="reficalcuformain mortcalcuformain d-md-flex wow fadeInUp">
+			<div class="reficalformleft mortformleft refiformcomman">
+				<div class="row reficalcuforow">
+					<div class="col-sm-12 col-12 reficalcol">
+						<label>Home Price</label>
+						<div class="input-group">
+						<span class="input-group-text">$</span>
+						<input type="text" name="homeprice" value="" class="inputField inputdolarField" placeholder="250,000">
+						</div>
+					</div>
+					<div class="col-sm-12 col-12 reficalcol">
+						<label>Down Payment</label>
+						<div class="input-group">
+						<span class="input-group-text">$</span>
+						<input type="text" name="downpayment" value="" class="inputField inputdolarField inputdoperField" placeholder="50,000">
+						<div class="redio-main-box mortrediomain">
+		                  <div class="role-list">
+		                    <div class="custom-redio">
+		                        <input type="radio" id="md_dolar" name="rediodownpayment" class="filled-in"  value="dolar" checked>
+		                        <label class="p0 m0" for="md_dolar"><span class="checkbox-text-right">$</span></label>
+		                    </div>
+		                  </div>
+		                  <div class="role-list">
+		                    <div class="custom-redio">
+		                        <input type="radio" id="md_percentage" name="rediodownpayment" class="filled-in"  value="percentage">
+		                        <label class="p0 m0" for="md_percentage"><span class="checkbox-text-right">%</span></label>
+		                    </div>
+		                  </div>
+              			</div>
+						</div>
+
+						
+					</div>
+					<div class="col-sm-12 col-12 reficalcol">
+						<label>Loan Term</label>
+						<select name="services" class="inputField custom-select-drop">
+							<option value="Select one">30 Years</option>
+							<option value="Lorem Ipsum">20 Years</option>
+							<option value="Lorem Ipsum">10 Years</option>
+							<option value="Lorem Ipsum">5 Years</option>
+						</select>
+					</div>
+					<div class="col-sm-12 col-12 reficalcol">
+						<label>Interest Rate</label>
+						<div class="input-group">
+						<input type="text" name="interestrate" value="" class="inputField inputdolarField inputperceField" placeholder="3.25">
+						<span class="input-group-text">%</span>
+						</div>
+					</div>
+					<div class="col-sm-12 col-12 reficalcol">
+						<label>ZIP Code</label>
+						<input type="text" name="zip-code" value="" class="inputField" placeholder="50401">
+					</div>
+					<!-- <div class="col-sm-12 col-12 reficalcol">
+						<label>Do you want the payment to include taxes and insurace?</label>
+						<div class="redio-main-box">
+		                  <div class="role-list">
+		                    <div class="custom-redio">
+		                        <input type="radio" id="md_default" name="insurace" class="filled-in"  value="yes" checked>
+		                        <label class="p0 m0" for="md_default"><span class="checkbox-text-right">Yes</span></label>
+		                    </div>
+		                  </div>
+		                  <div class="role-list">
+		                    <div class="custom-redio">
+		                        <input type="radio" id="md_checkbox" name="insurace" class="filled-in"  value="no">
+		                        <label class="p0 m0" for="md_checkbox"><span class="checkbox-text-right">No</span></label>
+		                    </div>
+		                  </div>
+              			</div>
+					</div> -->
+					<!-- <div class="col-sm-12 col-12 reficalcol">
+						<ul class="checkboxmain">
+							<li class="custom_checkbox">
+								<label>
+									<input type="checkbox" name="checkinsurnum" value="checkbox1" checked><span class="wpcf7-list-item-label"><b>Input my tax and insurance numbers</b></span>
+								</label>
+							</li>
+							<li class="custom_checkbox">
+								<label>
+									<input type="checkbox" name="checkbasedstate" value="checkbox1"><span class="wpcf7-list-item-label"><b>Estimate my taxes and insurance based on state</b></span>
+								</label>
+							</li>
+						</ul>
+					</div> -->
+					<!-- <div class="col-sm-12 col-12 reficalcol">
+						<label>Annual Property Taxes</label>
+						<div class="input-group">
+						<span class="input-group-text">$</span>
+						<input type="text" name="propertytaxes" value="" class="inputField inputdolarField" placeholder="1,100">
+						</div>
+					</div> -->
+					<!-- <div class="col-sm-12 col-12 reficalcol">
+						<label>Annual Homeowners Insurance Premium</label>
+						<div class="input-group">
+						<span class="input-group-text">$</span>
+						<input type="text" name="insurancepremium" value="" class="inputField inputdolarField" placeholder="1,000">
+						</div>
+					</div> -->
+					<div class="col-sm-12 col-12 reficalcol">
+						<a href="#" class="btn">CALCULATE</a>
+					</div>
+				</div>
+			</div>
+			<div class="reficalformright refiformcomman">
+				<div class="estimonpaymain">
+					<div class="estimonpaybox">
+						<div class="estimonchatcon">
+						<h5 class="estimontitle">Estimated Monthly<br> Payment</h5>
+						<div id="my-legend-con" class="legend-con"></div>
+						</div>
+						<div class="canvas-con mortgagecanvas-con">
+	    					<div class="canvas_total_sl">
+	    						<div class="canvas_total_payment">Total Payment</div>
+	    						<div class="canvas_price">$1,445.41</div>
+	    					</div>
+						    <div class="canvas-con-inner">
+						        <canvas id="mychart" height="250px"></canvas>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="clickbelowSec wow fadeInUp">
+					<div class="clickbelowcon">
+						<p>Click below to print or share a link to the mortgage calculator (with all your numbers pre-filled) below!</p>
+					</div>
+					<div class="clickprishabtn">
+						<a href="#" class="btn btn-light btn-clickprsh"><span>print <i class="icon icon-print"></i></span></a>
+						<div class="btn btn-light btn-clickprsh sharebox"><span>Share <i class="icon icon-share"></i></span>
+							<div class="dropdown-menu">
+								<a class="dropdown-item facebook" href="#"><i class="icon icon-facebook"></i> Facebook</a>
+								<a class="dropdown-item twitter" href="#"><i class="icon icon-twitter"></i> Twitter</a>
+								<a class="dropdown-item linkedin" href="#"><i class="icon icon-linkedin"></i> Linkedin</a>
+								<a class="dropdown-item mail" href="#"><i class="icon icon-mail"></i> Email</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="legaldisclosu wow fadeInUp" data-wow-delay="0.1s">
+					<div class="accordion" id="accordiondisclo">
+			  			<div class="recomviewcost">
+			    			<h2 class="accordion-header" id="headingfive">
+			      				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">View Legal Disclosures
+			      				</button>
+			    			</h2>
+				    		<div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordiondisclo">
+						      	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+				    		</div>
+			  			</div>
+			  		</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+<!-- refinance-calculator-form -->
+
+	<!-- Icon Cartd -->
+	<section class="commonSec cardIconSec reficalcardSec">
+		<div class="secHead wow fadeInUp">
+			<h4 class="secTitle">Our Free <br> Calculators</h4>
+		</div>
+		<div class="row cardrow wow fadeInUp">
+
+			<div class="col-12 col-md-6 cardcol">
+				<div class="card card-black card-horizontal card-icon border-0">
+			        <div class="card-head bg-primary">
+			            <img src="img/svg/reficalculator.svg" alt="">
+			        </div>
+			        <div class="card-body">
+			            <h4 class="card-title">Refinance Calculator</h4>
+			            <p class="card-text">Estimate options like taking cash out or lowering your rate</p>
+			            <a href="#" class="btn btn-light">Learn more</a>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="col-12 col-md-6 cardcol">
+				<div class="card card-horizontal card-icon border-0">
+			        <div class="card-head bg-primary">
+			            <img src="img/svg/home-afford.svg" alt="">
+			        </div>
+			        <div class="card-body">
+			            <h4 class="card-title">What Can I Afford</h4>
+			            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+			            <a href="#" class="btn">Learn more</a>
+			        </div>
+			    </div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+
+	<!-- Quote Section -->
+	<section class="commonSec quoteSec">
+		<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="text-center text-md-end quoteCon wow fadeInLeft">
+				<div class="quoteHead">
+					<h3 class="quoteTitle">Get a Rate Quote in</h3>
+					<h4 class="quoteSubTitle"><strong>Just</strong> <u>30 Seconds!</u></h4>
+				</div>
+				<p>Mortgage rates change daily according to different factors.<br /> Get your <strong>FREE customized quote here!</strong></p>
+				<a class="btn btn-white btn-outline wow fadeInUp" data-wow-delay="0.5s" href="#">Get My Custom Rate Quote Rate Now!</a>
+			</div>
+		</div>
+		<div class="d-none d-md-block col-md-6">
+			<div class="quoteImg  wow fadeIn"><img src="img/svg/logo-shap.svg" alt=""></div>
+		</div>
+		</div>
+	</section><!-- /end Quote Section -->
+
+
+</div>
+	<!-- Footer -->
+	<footer class="footerMain">
+		<div class="container-fluid">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-12 col-sm-auto  col-lg-4 col-xl-3">
+					<a class="footLogo" href="#" title="Better Rate Mortgage, Inc.">
+						<img src="img/logo.svg" alt="Better Rate Mortgage, Inc.">
+					</a>	
+				</div>
+				<div class="col-12 col-sm-4 col-md-auto col-lg-4">
+					<p class="footText">Finding <strong>a better way</strong> to home ownership. </p>
+				</div>
+				<div class="col-12 col-sm-auto col-md-3 col-lg-3">
+					<p class="footContect"><a href="mail:hello@mybetterrate.com">hello@mybetterrate.com</a><br /><a href="tell:(916)742-7400">(916) 742-7400</a></p>
+				</div>
+			</div>
+			<div class="row footNavbar justify-content-center">
+				<div class="col-6 col-sm-4 col-md-3">
+					<div class="footBox">
+						<h6 class="footBoxTitle">Popular</h6>
+						<ul>
+							<li><a href="#">Purchase</a></li>
+							<li><a href="#">Refinance</a></li>
+							<li><a href="#">Today's Rates</a></li>
+							<li><a href="#">Site Accessibility</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-6 col-sm-3 col-md-3 col-xl-2">
+					<div class="footBox">
+						<h6 class="footBoxTitle">Support</h6>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-3">
+					<div class="footBox mb-0">
+						<h6 class="footBoxTitle">Address</h6>
+						<p>2250 Douglas Blvd Ste 135<br /> Roseville, CA 95661</p>
+					</div>
+				</div>
+			</div>
+			<div class="copyRight row justify-content-between">
+				<div class="col-12 col-sm">
+					<div class="copyRightLogo px-0">
+						<img src="img/svg/equal-housing-opportunity.svg" alt="" />
+					</div>
+					<div class="copyRightCon">
+						<p>Copyright ©2021 | Better Rate Mortgage, Inc. <br /> <strong>Licensed In : CA, CO, FL, MI, NE | NMLS #1852295</strong></p>
+					</div>
+				</div>
+				<div class="text-center text-sm-right mt-5 mt-sm-0 col-sm-auto">
+					<div class="copyRightLogo"><img src="img/svg/brokers-better.svg" alt=""></div>
+					<div class="copyRightLogo"><img src="img/svg/aime-membership.svg" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<div class="back-to-top"><a href="javascript:void(0);" class="scrollTop" title="Back to top"><span></span></a></div>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>	
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>	
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.bundle.js'></script>
+<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script> -->
+
+<script type="text/javascript">
+	Chart.pluginService.register({
+    beforeDraw: function (chart) {
+        var width = chart.chart.width,
+            height = chart.chart.height,
+            ctx = chart.chart.ctx;
+        ctx.restore();
+        var fontSize = (height / 114).toFixed(2);
+        ctx.font = fontSize + "em sans-serif";
+        ctx.textBaseline = "middle";
+        var text = chart.config.options.elements.center.text,
+            textX = Math.round((width - ctx.measureText(text).width) / 2),
+            textY = height / 2;
+        ctx.fillText(text, textX, textY);
+        ctx.save();
+    }
+});
+
+
+var chartData = [{"amount": 870.41, "label": 'Principal & Interest'}, {"amount": 91.67, "label": 'Taxes'}, {"amount": 83.33, "label": 'Insurance'}]
+
+var visitorData = [],
+    sum = 0,
+    visitData = [];
+
+for (var i = 0; i < chartData.length; i++) {
+    visitorData.push(chartData[i]['amount'])
+   visitData.push(chartData[i]['label'])
+    sum += chartData[i]['amount'];
+}
+
+var textInside = sum.toString();
+
+var myChart = new Chart(document.getElementById('mychart'), {
+    type: 'doughnut',    
+    animation:{
+        animateScale:true
+    },
+    data: {
+        labels: visitData,
+        datasets: [{
+            label: 'Principal & Interest',
+            data: visitorData,
+            backgroundColor: [
+                "#4d76fe",
+                "#61dbff",
+                "#000000",
+                "#d0d0d0"
+            ]
+        }]
+    },
+    options: {
+    	cutoutPercentage: 64,
+        elements: {
+          center: {
+            text: ''
+          }
+        },
+        responsive: true,
+        legend: false,
+        legendCallback: function(chart) {
+            var legendHtml = [];
+            legendHtml.push('<ul>');
+            var item = chart.data.datasets[0];
+            for (var i=0; i < item.data.length; i++) {
+                legendHtml.push('<li>');
+                legendHtml.push('<span class="chart-legend" style="background-color:' + item.backgroundColor[i] +'"></span>');
+                legendHtml.push('<span class="chart-legend-label-text">'+chart.data.labels[i]+'  <strong> $ ' + item.data[i] + '</strong></span>');
+                legendHtml.push('</li>');
+            }
+
+            legendHtml.push('</ul>');
+            return legendHtml.join("");
+        },
+        tooltips: {
+             enabled: true,  
+             mode: 'label',
+             callbacks: {
+                label: function(tooltipItem, data) {
+                    var indice = tooltipItem.index;   
+                    return '$ '+data.datasets[0].data[indice] + " " + data.labels[indice];
+                }
+             }
+         },
+    }
+});
+
+$('#my-legend-con').html(myChart.generateLegend());
+
+console.log(document.getElementById('my-legend-con'));
+
+</script>
+
+
+</body>
+</html>

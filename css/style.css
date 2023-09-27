@@ -1,0 +1,362 @@
+/* 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-family: 'Sofia Pro';
+*/
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia_pro_bold-webfont.woff2') format('woff2'),
+         url('../fonts/sofia_pro_bold-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+/*@font-face {
+  font-family: "SofiaPro-Bold";
+  src: url('../fonts/SofiaProBold/font.woff2') format('woff2'),
+       url('../fonts/SofiaProBold/font.woff') format('woff');
+  font-style: normal;
+    font-weight: 700;
+}*/
+@font-face {
+  font-family: "Sofia Pro";
+  src: url('../fonts/SofiaProSemiBold.woff2') format('woff2'), 
+       url('../fonts/SofiaProSemiBold.woff') format('woff');
+       font-style: normal;
+    font-weight: 600;
+}
+
+*{padding:0; margin:0; border:none; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+strong, b{font-weight:bold}
+em, i{font-style:italic;}
+u{text-decoration:underline}
+a{text-decoration: none;}
+*:focus{outline: none;}
+a:hover, a:focus {text-decoration: none; outline: none !important;}
+button[type="button"]:focus{outline: none;}
+
+
+/* 1.1 SVG default css*/
+svg:not(:root).svgImg { overflow: visible }
+.svgImg { display: inline-block; font-size: inherit; width:1em; height: 1em; overflow: visible; vertical-align: -.125em; }
+.svg-icons { display: inline-block; font-size: inherit; height: 1em; overflow: visible; vertical-align: -.125em }
+/*SVG default css*/
+
+img{display: block; max-width:100%; max-height:100%; width:auto; height:auto}
+p{line-height:1.6;font:400 2.4rem/1.2 'Roboto', sans-serif;color:#000000;font-weight:400;margin-bottom:1rem;}
+p:last-child{margin-bottom:0;}
+a{color: #2d2d2d;}
+a:hover{color: #1ba8f1;}
+
+
+.c-scrollbar{
+    height: 100vh !important
+}
+
+.bg-primary{background: #4a74fe}
+.bg-dark{background: #000;}
+
+html{font-size: 0.525vw;}
+body{display:block; width:100%; padding:0; margin:0; font-family: 'Roboto', sans-serif; font-size: 1.6rem; font-weight:400; line-height:1.4; color:#000000; background-color:#fff; position: relative;}
+.trans{-moz-transition:all 0.4s ease-in-out; -ms-transition:all 0.4s ease-in-out; -webkit-transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out;}
+.wrapper{display:block; width:100%; overflow:hidden; min-height: 100vh; position: relative;}
+
+.container{max-width: 144rem;}
+
+/* Buttons */
+.btn{display: inline-block; vertical-align: middle; font-family: 'Poppins', sans-serif; font-size: 1.5rem; font-weight: 700; color: #fff; background: #4a74fe; border-radius: 6rem; padding: 2.9rem 4.8rem; position: relative; z-index: 1; overflow: hidden; transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out, transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /*border: 0.4rem solid transparent;*/     letter-spacing: 0.15rem; text-transform: uppercase;}
+.btn-light{background: #fff; color: #000000;}
+
+.btn.btn-white.btn-outline{border-color: #fff; color: #fff;}
+
+.btn.btn-outline{background: transparent; padding: 2.6rem 4.8rem; border: 0.4rem solid #61dbff; color: #0c0c0c }
+.btn.btn-outline.btn-light{color: #fff}
+
+
+.btn.btn-sm{padding: 2.6rem 5rem}
+.btn ~ .btn{margin-left: 2.5rem}
+
+
+.btn .btnHover{background: #61dbff; display: block; height: 0; padding-bottom: 0; position: absolute; -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transition: width .6s ease .1s, padding-bottom .6s ease .1s; -ms-transition: width .6s ease .1s, padding-bottom .6s ease .1s; -webkit-transition: width .6s ease .1s, padding-bottom .6s ease .1s; transition: width .6s ease .1s, padding-bottom .6s ease .1s; width: 0; z-index: -1; border-radius: 40%;}
+.btn.btn-light .btnHover{background: #4a74fe}
+.btn.btn-outline .btnHover{background: #61dbff}
+.btn:not(.btn-gradi):hover{color: #fff; border-color: #61dbff; background: #61dbff; transform: translateY(-0.5rem); box-shadow: 0px 0.1rem 0.5rem rgb(0 0 0 / 10%);}
+.btn.btn-light:hover{color: #fff; border-color: #4a74fe;background: #4a74fe;}
+.btn.btn-outline:hover, .btn.btn-outline.active{border-color: #61dbff; color: #fff;background: #61dbff;}
+.btn:hover .btnHover {width: 250%; padding-bottom: 100%; }
+
+.btn.btn-outline.btn-blue {border: 0.4rem solid #4a74fe; color: #0c0c0c;}
+
+.btn.btn-outline.btn-blue:hover {border-color: #4a74fe; color: #fff; background: #4a74fe;}
+
+
+
+
+/* Header start */
+.headerMain{display: block; width: 100%; padding: 3.6rem 6rem; position: absolute; left: 0; top: 0; right: 0; z-index: 12;}
+.headerMain .siteLogo img{display: block; width: 26rem; }
+.headerMain:not(.has_sticky) .siteLogo img{filter: brightness(0) invert(1);}
+.m_menuLogo { display: none;}
+.navigationBar .btn.btn-outline:hover{color: #000;}
+/* Navigation */
+.menuIcon {display: none;width: 32px; height: 32px; position: relative; padding:0px; margin-top:0px; margin-left: 3.5rem; color: #fff;}
+.menuIcon span {display: block; width: 30px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 2px; background: currentColor;
+    margin: auto;}
+.menuIcon span:before {content: ""; width: 30px; position: absolute; top: -8px; left: 0; right: 0; height: 2px; background: currentColor;}
+.menuIcon span:after {content: ""; width: 30px; position: absolute; bottom: -8px; left: 0; right: 0; height: 2px; background: currentColor;}
+
+.bodyFixed{overflow: hidden;}
+.sidebar-overlay{visibility: hidden; position: fixed; top: 0; left: 0; right: 0;bottom: 0; opacity: 0;    background: #000; z-index: 998; transition: visibility 0 linear .4s,opacity .4s cubic-bezier(.4,0,.2,1);}
+.bodyFixed .sidebar-overlay{opacity: .8; visibility: visible;left: 0;transition: all 0.6s ease-in-out;} 
+
+.menuMain{display: inline-block;width: auto;margin: 0 5rem 0 0;}
+.menuMain li{display: inline-block;width: auto;font-family: 'Poppins', sans-serif;font-size: 1.7rem;font-weight: 700;color: #fff;text-transform: uppercase;}
+.menuMain li a{display: block; color: #fff; transition: color 0.4s ease-in-out; padding: 1rem; position: relative;}
+.menuMain li a:before{content: ""; width: 0; position: absolute; left: 0; right: 0; top: 100%; background: currentColor; transition: width 0.4s ease-in-out; margin: auto; }
+.menuMain li a:hover:before{height: 2px; width: 100%;}
+.headerMain .btn{margin-right: 3.5rem;}
+.socialMedia{display: inline-block; vertical-align: middle; width: auto; color: #fff;}
+.socialMedia a{display: inline-block;padding: 0 1rem;font-size: 2rem;color: #fff;}
+
+/* Sticky Header*/
+.headerMain.has_sticky{ position: fixed; padding: 1rem 3rem; left: 0; top: 0; width: 100%; box-shadow: 0 0 1rem rgba(0,0,0,0.6); background: #fff; -webkit-animation-name: fadeInDown; animation-name: fadeInDown; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; z-index: 999;}
+.headerMain.has_sticky .menuMain{margin-right: 2rem;}
+.headerMain.has_sticky .menuMain li{font-size: 1.35rem;}
+.headerMain.has_sticky .menuMain li a{color: #000000}
+.headerMain.has_sticky .btn.btn-outline.btn-light{padding: 1.5rem 3rem; margin-right: 1.5rem;}
+.headerMain.has_sticky .btn.btn-outline.btn-light:not(:hover){color: #0c0c0c;}
+.headerMain.has_sticky .socialMedia a{color: #000}
+
+/* Banner start */
+
+/*  Banner Section */
+.bannerSec{display: block; width: 100%; min-height: 100vh;/* height: 130rem;*/ position: relative; background: url(../img/banner-img.jpg) no-repeat center top /cover #0297fe;}
+.bannerCon{display: inline-block; max-width: 80.4rem; margin: 32.1rem 0 10rem 21.4rem;}
+.bannerCon .bannerTitle{display: block;font:700 10rem/0.96 'Sofia Pro'; letter-spacing: -0.2rem; color: #fff;margin-bottom: 4rem;/*overflow: hidden;*/}
+.bannerTitle u{ text-decoration-thickness: 6.5%; /* text-underline-position: under; */ text-underline-offset: 1rem; }
+.bannerCon p{display: block; font-size: 2.4rem; line-height: 1.4; color: #fff; font-weight: 400; margin-bottom: 7rem;}
+.bannerCon p strong{font-weight: 700;}
+
+/* Common Section */
+.commonSec{display: block; width: 100%; padding: 20rem 9rem;}
+.whatwedoSec{padding-left: 21.4rem; padding-right: 7.2rem;}
+.secHead{display: block; width: 100%; margin-bottom: 9.25rem}
+.secHead .secSubTitle{display: block; font-family: 'Roboto Condensed', sans-serif;  font-weight: 400; font-size: 2rem; letter-spacing: 1rem;    margin-bottom: 2.5rem;}
+.secHead .secTitle{display: block; width: 100%; font: 700 10.9rem/0.9 'Sofia Pro'; letter-spacing: -0.2rem; color: #000000; margin-bottom: 5rem; }
+.secHead p{display: block; max-width: 93rem; /*font-size: 2.4rem; font-weight: 400; color: #000000; line-height: 1.2;*/}  
+
+
+.verticalTabs{ width: 33.33%; flex: 0 0 auto;}
+.verticalTabs li{display: block; width: 100%; font:400 5.4rem/1.2 'Roboto Condensed', sans-serif; letter-spacing: 0; color: #000000; padding: 0; margin: 0;   }
+.verticalTabs li a{color: #000; padding: 0; transition: color 0.4s ease-in-out; letter-spacing: -0.3rem;}
+.verticalTabs li a:hover,.verticalTabs li a.active{color: #4a74fe}
+.verticalTabs + .tab-content{padding-left: 4rem; padding-top: 1rem; width: 66.66%; flex: 0 0 auto; padding-left: 3rem;}
+.wedoBox{display: flex; width: 100%; align-items: center;}
+.wedoBox .wedoIcon{display: inline-block; width: 36.8rem; height: 36.8rem; background: #4a74fe; position: relative; }
+.wedoBox .wedoIcon img{position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; width: 13.4rem; }
+.wedoBox .wedoCon{background: #f2e7e7;padding: 5rem 7.6rem;width: calc(100% - 36.8rem);}
+/*.wedoBox .wedoCon p{display: block; font: 400 2.4rem/1.2 'Roboto', sans-serif; }*/
+
+/**/
+.monyMetterSec{display: block; width: 100%; padding-left: 5.2rem;}
+.monyMetterSecbg{display: block; width: 100%; min-height: 100vh; position: relative; background: url(../img/monyMetter-bg.jpg) no-repeat left center / cover; position: relative; }
+.monyMetterCon{display: inline-block; width: 90rem; position: absolute; left: 3%; top: 50%; transform: translateY(-50%); padding: 6.5rem 9.5rem; }
+.monyMetterTitle{display: block; width: 100%; font: 700 10.9rem/0.9 'Sofia Pro'; letter-spacing: -0.4rem; color: #000000; margin-bottom: 5rem; }
+.monyMetterCon p{margin-bottom: 5rem;}
+.monyMetterCon .btn.btn-outline{text-transform: uppercase; /*font-size: 1.5rem;*/ letter-spacing: 0.1rem;}
+.monyMetterNote{display: block; width: 100%; max-width: 99rem; max-width: ; padding: 6.5rem 16.5rem;}
+.monyMetterNote p{display: block; margin: 0; }
+
+/* Free Tool */
+.toolHeading{display: block;width: 100%;font: 700 10.1rem/1 'Sofia Pro';color: #000000;margin-bottom: 7rem;}
+.freeToolSec{display: block; width: 100%; background: #f3f3f3; padding: 8.4rem 7.4rem;} 
+.toolWrap{display: block; width: 100%; background: #fff; padding: 10.6rem 14.4rem;}
+
+.freeToolTabs .freeToolLeft{width: 44%;flex: 0 0 auto; padding-right: 9rem;}
+.freeToolTabs .freeToolLeft .verticalTabs{width: 100%}
+.freeToolTabs .verticalTabs + .tab-content{width: 56%;margin-top: 2rem;}
+.freeToolTabs .tab-content{width: 100%;height: 100%;padding: 0 0 0 10.3rem;border-left: 0.3rem solid #e3e3e3;}
+
+/* Tool iframe */
+#singleton {
+    position: relative;
+    padding: 1px 10px 0;
+}
+#singleton #getfreeinsurancequotestext{display: block;font: 400 5.3rem/1.4 'Roboto Condensed', sans-serif;color: #000000;margin-bottom: 3.5rem;letter-spacing: -0.2rem;}
+#singleton #getfreeratequotestext{display: block;max-width: 50rem;font-size: 1.6rem;margin-bottom: 6.2rem;}
+#singleton .fiturees{display: inline-block;max-width: 50rem;font-size: 1.6rem;margin-bottom: 5rem;}
+#singleton .fiturees li{display: block;text-align: left; width: 100%; padding-left: 3rem; position: relative; font-size: 1.6rem; line-height: 1.4; color: #000000; margin-bottom: 1rem;}
+#singleton .fiturees li:before{content: ""; width: 1.8rem; height: 1.8rem; background: url(../img/svg/checkmark.svg) no-repeat left center; position: absolute; left: 0; top: 0;}
+
+.hidden{display: none;}
+#singleton .c_row.mt-zip label{display: block;font:700 5.4rem/1.2 'Roboto Condensed', sans-serif;color: #000000;margin-bottom: 2.5rem;letter-spacing: -0.2rem;}
+#singleton form.f-form input{display: inline-block;width: 22.4rem;height: 8rem;background: #f3f3f3;padding: 1rem 3rem;font: 400 4.9rem/1.4 'Roboto Condensed', sans-serif;color: #000000;-webkit-appearance: none;appearance: none;margin-left: -2.5rem;}
+#singleton form.f-form #zipcodecta{margin-top: 4.8rem;}
+
+/* Quote Section */
+.quoteSec{display: block; width: 100%; background: #4a74fe; padding: 13rem 12.5rem;}
+.quoteCon{padding-right: 8rem;}
+.quoteHead{display: block; width: 100%; margin-bottom: 13rem;}
+.quoteHead .quoteTitle{display: block;font: 700 16rem/0.9 'Sofia Pro';color: #fff;margin-bottom: 2.4rem;letter-spacing: -0.6rem;}
+.quoteHead .quoteSubTitle{display: block;font: 600 6.9rem/1.4 'Sofia Pro';color: #fff;letter-spacing: -0.25rem;}
+.quoteCon p{float: right;display: block; max-width: 74.4rem; color: #fff; margin-bottom: 6.4rem;}
+.quoteHead .quoteSubTitle u{text-decoration-thickness: 6.5%;text-underline-offset: 1rem;}
+
+.quoteImg{display: block;padding: 0 5rem 0 14.5rem;position: relative;margin-top: 5rem;}
+.quoteImg:before{content: ""; width: 0.5rem; height: 25rem; background: #fff; position: absolute; left: 5rem; top: 3.8rem;}
+.quoteImg img{float: right; max-width: 62.1rem;}
+
+/* Expert Advice */
+.expertSec{display: block;width: 100%;background: url(../img/expert-img.jpg) no-repeat right 0% center/contain #eeeef0; padding: 7rem 0 9.5rem;}
+.expertTitle{display: block;width: 100%;font: 700 10.9rem/1.4 'Sofia Pro';color: #000;margin-bottom: 4rem;letter-spacing: -0.4rem;}
+.expertCon p{display: block;width: 100%;color: #000000;margin-bottom: 5rem;}
+.expertCon .btn.btn-outline{background: #fff;}
+.expertCon .btn.btn-outline:hover{background: #61dbff;}
+
+/* Apply Online */
+.applyOnlineSec{display: flex; width: 100%; background: #0c0c0c; align-items: center; }
+.applyLeft{width: 50%; flex: 0 0 auto; padding: 10rem 10rem 10rem 23rem;}
+.applyRight{width: 50%;flex: 0 0 auto;}
+.applyCon .applyTitle{display: block; font: 700 18.5rem/1 'Sofia Pro'; color: #fff; margin-bottom: 6rem;letter-spacing: -0.2rem;}
+.applyCon p{display: block; color: #fff; margin-bottom: 5rem;}
+.applyOnlineSec img{width: 100%;}
+
+/* Footer */
+.footerMain{display: block; padding: 10rem 17rem 0}
+.footLogo img{width: 34.6rem;}
+.footText{display: block; /*font:400 2.4rem/1.4 'Roboto', sans-serif; color: #000000;*/}
+.footContect{display: block; font-weight: 700; line-height: 1.3}
+.footContect a{transition: color 0.4s ease-in-out;}
+
+.footNavbar{margin-top: 10.6rem; margin-bottom: 10.6rem}
+.footBox{display: block;}
+.footBox .footBoxTitle{display: block; font:700 2.4rem/1.4 'Roboto', sans-serif; color: #000000; }
+.footBox ul{display: block; list-style: none;}
+.footBox ul li{display: block; width: 100%; font:400 2.4rem/1.4  'Roboto', sans-serif; color: #000;}
+
+.copyRight{border-top: 0.2rem solid #eaeaea; padding: 5.2rem 10rem;}
+.copyRightLogo{display: inline-block; padding: 0 2.5rem; vertical-align: middle;}
+.copyRightLogo img{max-height: 10rem; width: 14.5rem;}
+.copyRightCon{display: inline-block; vertical-align: middle; padding-left: 3rem;}
+
+.scrollTop {display: none; position: fixed; right: 1.5rem; bottom: 1.5rem; width: 4rem; height: 4rem; z-index: 9; background-color: #4a74fe;
+  text-align: center; vertical-align: middle; border-radius: 50%;transition: background 0.4s ease-in-out;}
+.scrollTop span {border: solid #fff; border-width: 0 0.2rem 0.2rem 0; display: inline-block; padding: 0.5rem; transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg); margin-top: 1.4rem;}
+.scrollTop:after {content: ""; width: 0.2rem; height: 1.4rem; position: absolute; left: 0; right: 0; margin: auto; background: #fff; margin-top: 1.3rem;}
+.scrollTop:hover{background: #000;}
+.block-revealer__element {  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background: #000;  pointer-events: none;  opacity: 0;  z-index: 12}
+
+/* Buy A Home */
+.innerBanner .bannerCon{width: 100%;}
+.ctaBox{display: block; width: 100%; background: #fff; border-radius: 2.8rem;  box-shadow: 3rem 3.6rem 8.5rem 1.5rem rgba(0, 0, 0, 0.09); padding: 3.5rem 3rem; text-align: center; transition: background-color 0.4s ease-in-out, transform 0.4s ease-in-out;}
+.ctaBox .ctaTitle{display: block; width: 100%; font: 700 3.4rem/1.2 'Sofia Pro'; letter-spacing: -0.2rem; color: #000000; margin-bottom: 1.8rem;  }
+.ctaBox:hover{background-color: #4a74fe; transform: translateY(-0.5rem);}
+.ctaBox:hover .btn, .ctaBox:hover .btn .btnHover{background-color: #fff; color: #000;border-color: #fff;}
+.ctaBox:hover .ctaTitle{color: #fff}
+.ctaBox .btn{padding: 2.9rem 3.5rem;}
+
+/* Home Purchase Sec */
+.homePurchaseSec{display: flex; flex-wrap: wrap; width: 100%; align-items: center; padding: 11.1rem 6.5rem 11.1rem 0}
+.homePurchaseSec .homePurchaseCon{width: 62%; flex: 0 0 auto;  background-color: #efefef; padding: 15.5rem 13.7rem 16.2rem 16rem;}
+.homePurchaseSec .homePurchaseCon .secHead .secTitle{margin-bottom: 8.4rem}
+.homePurchaseSec .homePurchaseImg{width: 38%; flex: 0 0 auto; position: relative; overflow: hidden; }
+
+/* */
+.batterHome{display: inline-block; vertical-align: top; width: 100%; padding: 12.5rem 28.3rem;}
+.batterHome .secHead{max-width: 84rem; margin-bottom: 0;}
+.ourProcess{float: right; width: 63%; counter-reset: process-count; margin-top: -12rem;}
+.ourProcess li{display: block;width: 100%;counter-increment: process-count;font: 400 5.3rem/1 'Roboto Condensed', sans-serif;color: #000000;/* padding-left: 13.4rem; */position: relative;padding: 5rem 0;padding-left: 13.4rem;letter-spacing: -0.2rem;}
+.ourProcess li:before{content: '0' counter(process-count);width: 10.3rem;height: 10.3rem;line-height: 10.3rem;background-color: #4a74fe;border-radius: 50%;font-weight: 700;color: #fff;position: absolute;top: 50%;left: 0;text-align: center;transform: translateY(-50%);}
+.ourProcess li:not(:last-child):after{content: "";width: 0.3rem;height: 9rem;top: 50%;bottom: 0;background: #efefef;position: absolute;left: 5rem;margin-top: 5.85rem;box-shadow: inset 0 -3rem 0 #4a74fe;}
+.ourProcess li:nth-child(2):after{box-shadow: inset 0 -5.3rem 0 #4a74fe;}
+.ourProcess li:nth-child(3):after{box-shadow: inset 0 -9rem 0 #4a74fe;}
+
+.cardIconSec{padding-bottom: 6rem;}
+.card{background: #f2e7e7;}
+.card.card-horizontal{display: flex; flex-direction: row; width: 100%;}
+.card.card-horizontal .card-head{width: 36%; flex: 0 0 auto;  position: relative;padding: 4.8rem;text-align: center;font:700 8rem/1.1 'Sofia Pro';letter-spacing: -0.4rem;}
+.card.card-icon .card-head img{position: absolute; width: 16rem; height: 17rem; left: 0; top: 0; right: 0; bottom: 0; margin: auto;}
+.card .card-body{width: 64%; flex: 0 0 auto; padding: 7.7rem 8.6rem; }
+.card .card-title{display: block; font:700 3.4rem/1 'Sofia Pro'; color: #000000; margin-bottom: 2rem;}
+.card p{display: block; margin-bottom: 3rem;}
+
+
+.pagination {display: block; text-align: center;}
+.page-numbers {display: inline-block; padding: 7px 12px; margin: 0 2px 0 0; border: 1px solid #eee; line-height: 1;
+    text-decoration: none; border-radius: 2px; font-weight: 600;}
+.page-numbers.current,a.page-numbers:hover {background: #67dcff; color: #fff; border-color: #67dcff;}
+
+.wpcf7-form-control-wrap {display: block;}
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip, .wpcf7-form-control-wrap label.error, .error {position: absolute; right: 0; top: -53px; width: auto; height: auto; margin: 0; font-size: 11px!important; line-height: 11px!important; background: #fb0101; padding: 5px 5px 4px!important; color: #fff!important;}
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip:after, .wpcf7-form-control-wrap label.error:after, .error:after {border-color: #fb0101 transparent transparent; -o-border-image: none;
+ border-image: none; border-right: 6px solid transparent; border-style: solid; border-width: 6px; content: ""; height: 0; left: 5px; position: absolute; top: 100%; width: 0;}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {border-color: #ffb900; background: #fff; font-size: 14px;}
+
+.errorsec {padding: 0;}
+.errorsec .errormain {margin: auto; text-align: center;}
+.errorthktitle {font-size: 130px; line-height: 130px; color: #000; margin-bottom: 0px; text-align: center;
+    font-weight: 800; letter-spacing: 1px;}
+
+.errorsec .errordec { font-weight: 600; margin: 0; color: #010101; text-align: center; padding: 0 0 10px; font-size: 22px; line-height: 32px;
+}
+
+.errorsec .error-sub-text {font-size: 16px; margin-bottom: 20px;}
+
+.thanksec {padding:0;}
+.thanksec .thankyou {text-align: center;}
+.thanksec .thankyou img {margin: auto;}
+.thanksec .thanktitle {padding-top: 40px; padding-bottom: 20px; margin: 0; font-size: 88px; line-height: 90px; font-weight: 700; color: #000; text-align: center;}
+.thanksec .thankdec {font-size: 24px; line-height: 28px; font-weight: 500; margin: 0; color: #000; text-align: center;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1588 @@
+
+
+/*  Slick slider */
+
+.slick-slide{outline: none;}
+
+.slick-dots{display: block; text-align: center; margin-top: 3.5rem;}
+
+.slick-dots li{ display: inline-block; width:auto; list-style: none; padding: 0 0.4rem;}
+
+.slick-dots li button{font-size:0; border: none; background: #efefef; width: 1.3rem; height: 1.3rem; border-radius: 50%; -moz-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out;  transition: all 0.4s ease-in-out; cursor: pointer; outline: none;}
+
+.slick-dots li.slick-active button, .slick-dots li button:hover{background: #61dbff;}
+
+/*.slick-prev{background: transparent;width: 40px;height: 40px;border-radius: 5px;position: absolute;left: 0;top:50%;margin-top:-20px;z-index:999;font-size:0;border:none;outline-color: transparent;}
+
+.slick-prev:before{content:"";width: 14px;height: 14px;border-bottom: 3px solid #4a74fe;border-left: 3px solid #4a74fe;position:absolute;left: -40px;right:0;top: -40px;bottom:0;margin:auto;transform:rotate(45deg);}
+
+.slick-next{background:transparent; width: 40px; height: 40px; border-radius: 5px; position: absolute; right:0; top:50%; margin-top:-20px; z-index:999; font-size:0; border:none; outline-color: transparent; }
+
+.slick-next:before{content:""; width:14px; height:14px; border-bottom:3px solid #4a74fe; border-right:3px solid #4a74fe;  position:absolute; left:0; right:-40px; top:-40px; bottom:0; margin:auto; transform:rotate(-45deg)}*/
+
+.slick-prev:arrow .slick-next:arrow{ color: #61dbff;}
+
+
+/*---newcss--*/
+.screen-reader-text{display:none;}
+.search-form .search-field{text-transform: uppercase;}
+
+/*---newcss--*/
+
+/*---about-us---*/
+
+.innerBanner{background: url(../img/aboutbanner-img.jpg) no-repeat center top /cover #ccc;z-index: 2;}
+.innerBanner .bannerCon{max-width: 122rem;}
+.innerBanner:before{content: "";position: absolute;top: 0;left: 0;right: 0;bottom: 0;width: 100%;height: 100%; background: #000;opacity: 0.2;z-index: -1;}
+.innerBanner .bannerCon p{margin-bottom: 8rem;}
+
+.aboutwhatwedoSec .secHead{margin-bottom: 0;}
+
+.parallax-mirror img{max-height: inherit; max-width: inherit;}
+.whowebannimgSec{display: block;position: relative; padding-bottom: 70.5rem;}
+
+.whywebettitlebox{margin-bottom: 28.4rem;position: relative;z-index: 2;}
+.whywebettitlebox .whywebettitle{display: block;font-family: 'Sofia Pro';font-size: 11.2rem;line-height: 0.9;
+font-weight: 700;color: #000;letter-spacing: -0.6rem;padding: 5.6rem;background: #efefef;width: 44.8rem;
+position: absolute;top: 0;right: 5.5rem;}
+.whywebetterimg{position: relative;padding-bottom: 112%;display: block;width: 100%;z-index: 1;}
+.whywebetterimg img{position: absolute;top: 0;right: 0;bottom: 0;left: 0;width: 100%;height: 100%;max-width: 100%;
+max-height: 100%;display: block;object-fit: cover;}
+
+.whywebetterSec.commonSec{padding: 20rem 0;}
+.whywebettercon{padding-left: 7rem; padding-right: 22rem;}
+.whywebetterstep{margin-bottom: 19rem;}
+.whywebetterstep ul{font-size: 0;}
+.whywebetterstep ul li{font: 400 5.4rem/1.2 'Roboto Condensed', sans-serif;padding: 0;margin: 0;letter-spacing: 0;
+display: block;width: 100%;}
+
+.servlocaSec{padding: 22rem 20rem; padding-bottom: 5.5rem;background: #eeeef0;}
+.servlocaSec .secHead{font-size: 0;margin-bottom: 0;}
+.secHead .secheadleft{width: 50%;flex: 0 0 auto;padding-right: 9rem;}
+.secHead .secheadright{width: 100%;height: 100%;padding-top: 4rem;}
+.servlocaSec .secHead .secTitle{display: block;font-family: 'Sofia Pro';font-size: 11.2rem;line-height: 0.9;font-weight: 700;
+color: #000;letter-spacing: -0.6rem;margin-bottom: 0;}
+.servilocaimg{padding-top: 16rem;padding-bottom: 5rem;}
+.licensedlist ul{font-size: 0;margin: 0 -2rem;text-align: center;}
+.licensedlist ul li{line-height: 1.6;font: 400 2.4rem/1.2 'Roboto', sans-serif;color: #000000;font-weight: 400;
+display: inline-block;width: auto;padding: 0 2rem;}
+
+.teamMemSec{display: block;width: 100%;padding: 12.7rem 15.5rem;padding-bottom: 6.2rem;}
+.teamMemSec .secHead{max-width: 50rem;margin-left: 30rem;}
+.teamMemSec .secHead .secTitle{display: block;font-family: 'Sofia Pro';font-size: 11.2rem;line-height: 0.9;font-weight: 700;
+color: #000;letter-spacing: -0.6rem;margin-bottom: 0;}
+.teamemrow{margin: 0 -1.4rem;}
+.teamemcol{padding: 0 1.4rem; margin-bottom: 2.8rem;}
+.teamembox{transition: all 0.4s ease-in-out;position: relative;overflow: hidden;}
+.teamemimg{position: relative;padding-bottom: 182%;display: block;}
+.teamemimg img{position: absolute;top: 0;right: 0;bottom: 0;left: 0;width: 100%;height: 100%;max-width: 100%;max-height: 100%;
+display: block;object-fit: cover;filter: grayscale(100%);transition: filter 0.4s ease-in-out;}
+.teamemcon{position: absolute;width: 100%;bottom: -100%;left: 0;right: 0;content: ""; transition: bottom 0.4s ease-in-out; padding: 2.8rem 3.4rem;background: #eeeef0;}
+.teamemcon .teamemtitle{display: block;font-family: 'Sofia Pro';font-size: 6.2rem;line-height: 0.9;font-weight: 700;
+color: #000;letter-spacing: -0.2rem;margin-bottom: 2rem;}
+.teamemcon span{font: 400 2.1rem/1.2 'Roboto', sans-serif;color: #000000;font-weight: 400;}
+.teamembox:hover .teamemimg img{filter: grayscale(0);}
+.teamembox:hover .teamemcon{bottom: 0;}
+
+
+.aboutexpertSec{background: url(../img/aboutexpert-img.jpg) no-repeat right 0% center/contain #f7f7f7;}
+
+.aboutquoteSec{background: #000;}
+
+.aboutwhatwestep{padding-top: 9rem;}
+.aboutwhatwestep ul{font-size: 0;margin: 0 -1.5rem;}
+.aboutwhatwestep ul li{display: inline-block;padding: 0 1.5rem;width: 33.33%;margin-bottom: 3.5rem;vertical-align: top;}
+.aboutwestepbox{position: relative;padding-left: 11rem;font: 400 3.9rem/1.4 'Roboto Condensed', sans-serif;
+letter-spacing: -0.1rem;color: #000000;}
+.aboutwestepbox img{position: absolute;width: 7.2rem;height: 7.2rem;left: 0;top: 0;}
+.commonSec.aboutwhatwedoSec{padding-bottom: 13.5rem;}
+
+/*---about-us---*/
+
+
+/*---team-member---*/
+
+.headerMain.darkheaderMain{background: #fff;}
+.darkheaderMain .menuMain li a{color: #000;}
+.darkheaderMain .btn.btn-outline.btn-light{color: #0c0c0c;}
+.darkheaderMain .btn.btn-outline.btn-light:hover{color: #fff;}
+.darkheaderMain .socialMedia a{color: #000;}
+.headerMain.darkheaderMain .siteLogo img{filter: brightness(0) invert(0);}
+
+.darkheaderMain .menuIcon{color: #000;}
+
+.teamemberdetSec{margin-top: 15.5rem;border-bottom: 1px solid #ccc;}
+.teamemleftcol{width: 45%;flex: 0 0 auto;}
+.teamemrighttcol{width: 100%;height: 100%;}
+
+.teamemberimgbox{position: relative;z-index: 2;}
+.teamemdetarrowleft{content: "";position: absolute;left: 5.5rem;top: 7.6rem;width: 1.6rem;height: 1.6rem;border-left: 0.6rem solid #000;border-bottom: 0.6rem solid #000;
+transform: rotate(45deg);margin: auto;border-top: 0;border-right: 0;border-radius: 0.1rem;z-index: 3;
+transition: border 0.4s ease-in-out;}
+.teamemdetarrowleft:hover{border-color: #4a74fe;}
+.teamemdetimg{position: relative;padding-bottom: 108%;display: block;}
+.teamemdetimg img{position: absolute;top: 0;right: 0;bottom: 0;left: 0;width: 100%;height: 100%;max-width: 100%;
+max-height: 100%;display: block;object-fit: cover;}
+
+.tememheadbox{padding-top: 6rem;padding-bottom: 7rem;padding-left: 10rem;padding-right: 5rem;background: #4a74fe;}
+.teamemhead{max-width: 30rem;}
+.tememheadbox .teamemtitle{display: block;width: 100%;font: 700 7.5rem/0.9 'Sofia Pro';letter-spacing: -0.2rem;color: #fff;
+ margin-bottom: 2.5rem;}
+.tememheadbox span{font: 400 2.4rem/1.2 'Roboto', sans-serif;color: #fff;font-weight: 400;}
+
+.teamembiocon{padding: 7rem 8rem;/*padding-bottom: 0;*//*max-height: 56.7rem;*/overflow: auto;}
+.teamembiocon .teamembiotitle{display: block;font: 400 5.3rem/1.4 'Roboto Condensed', sans-serif;color: #000000;margin-bottom: 1rem;
+letter-spacing: -0.4rem;}
+.teamembiocon p{max-width: 70rem;margin-bottom: 8rem;}
+.teameminfoboxmain{margin: 0 -3rem;margin-bottom: 3rem;font-size: 0;}
+.teaminfobox{padding: 0 3rem;display: inline-block;vertical-align: middle;width: auto;font-size: 0;margin-bottom: 2rem;}
+.teaminfobox .teamemail{font: 700 3rem/1.2 'Roboto', sans-serif;color: #000;display: block;margin-bottom: 1.2rem;}
+.teaminfobox .teaminfoec{font: 400 2.1rem/1.2 'Roboto', sans-serif;color: #000;transition: color 0.4s ease-in-out;}
+.teaminfobox .teaminfoec:hover{color: #4a74fe;}
+
+.btn.applybtn {padding: 3rem 3rem;}
+
+.btn-gradi{background: #4869fe;background: -moz-linear-gradient(45deg,#4869fe 0%,#62ddff 50%,#4869fe 100%);
+background: -webkit-linear-gradient(45deg,#4869fe 0%,#62ddff 50%,#4869fe 100%);
+background: linear-gradient(45deg,#4869fe 0%,#62ddff 50%,#4869fe 100%);padding: 3rem 3rem;font-size: 1.6rem;color: #fff !important;
+font-weight: 800;border-radius: 6rem;position: relative;overflow: hidden;border: 0;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4869fe',endColorstr='#4869fe',GradientType=1);
+background-size: 200%;background-position: left center;transition: background 0.4s ease-in-out;   
+display: inline-block;vertical-align: top;}
+.btn-gradi:hover{background-position: right center;color: #fff;transform: translateY(-0.5rem);}
+/*.teaminfobox .btn-gradi{margin-right: 1.5rem;}*/
+.teaminfobox .btn.btn-outline{border: 0.4rem solid #d2d2d2;}
+/*.teaminfobox .btn.btn-outline .btnHover{background: #d2d2d2;}*/
+/*.teaminfobox .btn:hover{transform:none;}*/
+.teaminfobox .btn.btn-outline.btn-dark{padding-left: 2.5rem;padding-right: 2.5rem;}
+.btn.btn-outline.btn-dark:hover{background: #4a74fe;border-color: #4a74fe;}
+
+
+.teamembiocon .socialMedia a{color: #000;transition: color 0.4s ease-in-out;}
+.socialMedia .facebook:hover{color: #3b5998}
+.socialMedia .twitter:hover{color: #1DA1F2}
+.socialMedia .linkedin:hover{color: #2867b2}
+.socialMedia .instagram:hover{color: #c13584}
+
+
+
+
+/*---team-member---*/
+
+/*---Buy-A-Home---*/
+
+.bg-black{background: #000;}
+.homePurchaseSec .homePurchaseImg img{width: 100%;}
+.cardrow{margin: 0 -2rem;}
+.cardcol{padding: 0 2rem;}
+.card-body.card-bodypartwo{padding: 6.2rem 6rem;padding-left: 2rem;}
+.ctaBox .btn:hover{transform: none;}
+
+.blogSec{padding: 15.4rem 8rem;}
+.blogSec .secHead{max-width: 88rem;margin-bottom: 7rem;margin-left: 3rem;}
+.blogSec .secHead .secTitle{font-size: 10rem;margin-bottom: 7rem;}
+
+.toolWrapbox .toolHeading{margin-bottom: 0;}
+
+.bloglistmain{margin: 0 -2rem;}
+.bloglist{padding: 0rem 2rem;}
+.blogimg{position: relative;padding-bottom: 53%;display: block;width: 100%;overflow: hidden;}
+.blogimg img{position: absolute;top: 0;bottom: 0;left: 0;right: 0;max-width: 100%;max-height: 100%;display: block;margin: auto;
+width: 100%;height: 100%;object-fit: cover;object-position: center;transition: all 0.4s ease-in-out;}
+.blogbox:hover .blogimg img{-webkit-transform: scale(1.1);transform: scale(1.1);}
+.blogcon{padding: 2.5rem 3.3rem;padding-bottom: 5rem;background: #f7f7f7;}
+.blogcon .datadmin{position: relative;display: block;padding-left: 2.8rem;font: 500 1.8rem/1.2 'Roboto', sans-serif;
+color: #000000;padding-bottom: 2.5rem;border-bottom: 0.2rem solid #d3d3d3;margin-bottom: 3rem;}
+.blogcon .datadmin img{width: 1.8rem;height: 1.8rem;position: absolute;top: 0;left: 0;}
+.blogcon .blogtitle{display: block;width: 100%;font: 700 4rem/1.1 'Sofia Pro';color: #000000;letter-spacing: -0.2rem;
+margin-bottom: 2.5rem;transition: color 0.4s ease-in-out;}
+.blogbox:hover .blogcon .blogtitle{color: #4a74fe;}
+.blogcon p{font: 400 1.6rem/1.2 'Roboto', sans-serif;color: #000000;font-weight: 400;margin-bottom: 3rem;}
+.aboutvisitbtn{margin-top: 8rem;text-align: center;}
+.blogbox .btn.btn-outline{background: #fff;}
+.blogbox:hover .btn.btn-outline{border-color: #61dbff;color: #fff;background: #61dbff;transform: translateY(-0.5rem);
+box-shadow: 0px 0.1rem 0.5rem rgb(0 0 0 / 10%);}
+
+/*---Buy-A-Home---*/
+
+
+/*---Refinance---*/
+
+/*.refinance-page .headerMain.darkheaderMain{background: transparent;}*/
+.refinance-page .innerBanner:before{display: none;}
+.refinance-page .bannerCon .bannerTitle{font-size: 11rem;}
+.blackbannerCon:before{background: none;}
+.blackbannerCon .bannerTitle{color: #000;}
+
+.blackbannerCon .bannerTitle u{color: #4a74fe;}
+.blackbannerCon p{color: #000;}
+
+.readyrefinaSec{padding: 12rem 5.5rem;padding-bottom: 0;}
+.readyrefinaSec .secHead .secTitle{font-size: 10rem;margin-bottom: 0;}
+.readyrefinaSec .secHead .secheadleft{padding-left: 15.5rem;}
+.readyrefinaSec .secHead p{max-width: 80rem;}
+.readyrefinaimg{position: relative;display: block;padding-bottom: 50%;width: 100%;}
+.readyrefinaimg img{position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto;width: 100%;height: 100%;
+max-width: 100%;max-height: 100%;display: block;object-position: center;object-fit: cover;}
+
+/*---Refinance---*/
+
+
+/*---home---*/
+
+.whybetterSec{padding: 15rem 15rem;padding-bottom: 16rem;}
+.whybetterSec .secHead .secTitle{margin-left: 17rem;font-size: 12rem;}
+
+.whybettbox{background: #eeeef0;padding: 30rem 3.5rem;padding-bottom: 7rem; height: 100%;transition: background 0.4s ease-in-out;}
+.whybettimg{margin-bottom: 4rem;}
+.whybettimg img{width: 8.2rem;height: 8.2rem;transition: filter 0.4s ease-in-out;}
+.whybettbox .whybettrtitle{display: block;font: 700 5.8rem/1 'Sofia Pro';color: #000;letter-spacing: -0.2rem;
+transition: color 0.4s ease-in-out;}
+.whybettrow{margin: 0 -1.5rem;}
+.whybettcol{padding: 0 1.5rem;}
+
+.whybettbox:hover{background: #4a74fe;}
+.whybettbox:hover .whybettimg img{filter: brightness(0) invert(100);color: #fff;}
+.whybettbox:hover .whybettrtitle{color: #fff;}
+
+.whybettimgbox img{width: 100%;height: 100%;object-fit: cover;}
+
+.whybetternote{max-width: 99rem;width: 100%;display: block;padding: 6rem 6.8rem;padding-bottom: 0;}
+
+/*---home---*/
+
+/*---refinance-calculator---*/
+
+.cardIconSec .secHead{margin-bottom: 9rem;}
+.cardIconSec .secHead .secTitle{line-height: 1;}
+.reficalcardSec{padding: 9rem 14.5rem;padding-bottom: 17.7rem;}
+.card-grey{background: #f3f3f3;}
+.reficalcardSec .card .card-body{padding: 7rem 5.5rem;}
+.reficalcardSec .cardrow{margin: 0 -3rem;}
+.reficalcardSec .cardcol{padding: 0 3rem;}
+.reficalcardSec .card.card-horizontal .card-head{width: 42%;}
+.reficalcardSec .card .card-body{width: 58%;}
+
+.reficalculSec{padding: 25rem 15rem;padding-bottom: 5rem;}
+.reficalculSec .bannerCon{margin: 0;max-width: 100%;}
+.reficalculSec .blackbannerCon .bannerTitle{letter-spacing: 0;}
+.reficalculSec .blackbannerCon .bannerTitle u{letter-spacing: -0.4rem;}
+.reficalculSec .bannerContent{max-width: 90rem;}
+
+.reficalcol{margin-bottom: 3rem;}
+.reficalcuformain label{font: 700 1.8rem/1.2 'Roboto', sans-serif;color: #000;display: block;margin-bottom: 1rem;}
+.reficalcuformain .inputField{width: 100%;border: 0;background: #f7f7f7;padding: 1.5rem 1.7rem;
+font: 400 2rem/1.4 'Roboto', sans-serif;color: #000;min-height: 6rem;}
+.reficalcuformain .input-group{}
+.reficalcuformain .input-group-text{border:0; background: #f7f7f7;font: 700 2rem/1.4 'Roboto', sans-serif;padding: 1.5rem 1.7rem;min-height: 6rem;
+border-radius: 0;}
+.reficalcuformain .inputField.inputdolarField{padding-left: 0;flex: 1 1 auto;width: 1%;}
+
+
+.reficalcuformain .custom-select-drop{cursor: pointer;background: #f7f7f7 url(../img/svg/downarrow.svg) no-repeat right 2.4rem center;
+-webkit-appearance: none;appearance: none;padding-right: 4rem;background-size: 1.4rem;}
+.reficalcuformain .inputField::-webkit-input-placeholder{color: #000;}
+.reficalcuformain .inputField::-moz-placeholder{color: #000;}
+.reficalcuformain .inputField:-ms-input-placeholder {color: #000;}
+.reficalcuformain .inputField:-moz-placeholder {color: #000;}
+
+.reficalcuformain{font-size: 0;margin: 0 -10rem;}
+.reficalcuformain .refiformcomman{padding: 0 10rem;}
+.reficalcuformain .reficalformleft{width: 50%;flex: 0 0 auto;}
+.reficalcuformain .reficalformright{width: 100%;height: 100%;}
+.reficalbtn{text-align: right;}
+
+
+.role-list{display: inline-block;margin-right: 0rem;}
+.custom-redio input[type="checkbox"], .pure-radiobutton input[type="checkbox"], .custom-redio input[type="radio"], .pure-radiobutton input[type="radio"] {
+border: 0; clip: rect(0 0 0 0);  height: 0.1rem;  margin: -0.063rem;  overflow: hidden;  padding: 0;  position: absolute;  width: 0.1rem;}
+.custom-redio input[type="checkbox"] + label, .pure-radiobutton input[type="checkbox"] + label, .custom-redio input[type="radio"] + label, .pure-radiobutton input[type="radio"] + label {
+position: relative;  padding: 1.5rem 1.7rem;width: 11.4rem; min-height: 6rem;margin-bottom: 0;  vertical-align: middle;  user-select: none;  cursor: pointer;}
+.custom-redio input[type="checkbox"] + label:before, .pure-radiobutton input[type="checkbox"] + label:before, .custom-redio input[type="radio"] + label:before, .pure-radiobutton input[type="radio"] + label:before {
+box-sizing: content-box; content: ''; position: absolute; top: 0; left: 0; right: 0;bottom: 0; margin-top: 0; border: 0.4rem solid #4d76fe; text-align: center; transition: border 0.4s ease; border-radius: 0;}
+.custom-redio input[type="radio"] + label:before, .pure-radiobutton input[type="radio"] + label:before, .custom-redio input[type="radio"] + label:after, .pure-radiobutton input[type="radio"] + label:after {
+border-radius: 0%;}
+.custom-redio input[type="checkbox"] + label:before, .pure-radiobutton input[type="checkbox"] + label:before, .custom-redio input[type="radio"] + label:before, .pure-radiobutton input[type="radio"] + label:before {}
+.custom-redio input[type="radio"]:checked + label:after, .pure-radiobutton input[type="radio"]:checked + label:after {transform: scale(1);}
+.custom-redio input[type="radio"]:checked + label:after .checkbox-text-right, .pure-radiobutton input[type="radio"]:checked + label:after .checkbox-text-right{
+color: #fff;transform: scale(1);}
+.custom-redio input[type="radio"]:checked + label:before, .pure-radiobutton input[type="radio"]:checked + label:before {border-color: #4d76fe;}
+.custom-redio input[type="checkbox"] + label:after, .pure-radiobutton input[type="checkbox"] + label:after, .custom-redio input[type="radio"] + label:after, .pure-radiobutton input[type="radio"] + label:after {
+box-sizing: content-box; content: ''; background: #4d76fe; position: absolute; top: 0; left: 0; right: 0;bottom: 0; margin-top: 0; transform: scale(0); transform-origin: 50%; transition: transform 200ms ease-out;
+z-index: 0;}
+.custom-redio .checkbox-text-right {display: block; text-align: center; position: relative; color: #000; font: 700 2rem/1.4 'Roboto', sans-serif;
+z-index: 2;letter-spacing: 0;}
+.custom-redio input[type="radio"]:checked + label .checkbox-text-right{font-weight: 600;color: #fff;}
+.redio-main-box{font-size: 0;margin: 0 -0.9rem;}
+.redio-main-box .role-list{width: auto;display: inline-block;vertical-align: top;padding: 0 0.9rem;}
+
+
+.recomoptiSec{padding: 0rem 15rem;padding-bottom: 0rem;}
+.recomoptiSec .secHead{margin-bottom: 8rem;}
+
+.recomboxmain{background: #f7f7f7;padding: 3.8rem 4.4rem;padding-bottom: 4.6rem;}
+.recomconhead{text-align: center; padding-bottom: 1rem;}
+.recomconhead b{font: 700 2.4rem/1 'Roboto', sans-serif;letter-spacing: 0;margin-bottom:1.3rem;color: #000;display: block;}
+.recomconhead .recomtitle{font: 700 6rem/1 'Sofia Pro';letter-spacing: -0.4rem;margin-bottom: 2rem;color: #4d76fe;
+display: block;}
+.recomconpayment{border: 0.2rem solid #eaeaea;border-left: 0;border-right: 0;padding: 3.7rem 0;padding-bottom: 1.4rem;}
+.recomconpayment ul{font-size: 0;}
+.recomconpayment ul li{font: 400 2.2rem/1.2 'Roboto', sans-serif;letter-spacing: 0;color: #000;padding-bottom: 2.3rem;
+display: inline-block;width: 50%;vertical-align: top;}
+.recomconpayment ul li.recomtextright{text-align: right;}
+
+.recomoptirow{margin: 0 -2rem;}
+.recomopticol{padding: 0 2rem;}
+
+/*---chart---*/
+
+.canvas-con {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  min-height: auto;
+  width: 100%;
+  position: relative;
+  padding: 3.8rem 0;
+}
+
+.canvas-con .canvas_total_sl {
+  position: absolute;
+  left: 50%;
+  margin-top: 0;
+  top: 30%;
+  transform: translateX(-50%);
+  margin: 0;
+  font: 700 2.6rem/0.9 'Sofia Pro';
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.canvas-con-inner {
+  height: 100%;
+}
+
+.canvas-con-inner{
+  display:block;
+  padding-bottom: 2.6rem;
+  /*width: 332px;
+  margin: 0 auto;*/
+}
+
+.canvas_price {padding-top: 15px;}
+
+.canvas-con-inner .chartjs-hidden-iframe{}
+
+.legend-con {
+  font-family: Roboto;
+  display: block;
+}
+.legend-con ul {
+  list-style: none;
+}
+.legend-con li {
+  display: block;
+  align-items: center;padding-bottom: 1.625rem;
+  font: 400 2.4rem/1.2 'Roboto', sans-serif;letter-spacing: 0;color: #000;
+}
+.legend-con li:last-child{padding-bottom: 0;}
+.legend-con li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.legend-con li span.chart-legend {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1rem;
+}
+.legend-con li span.chart-legend-label-text{display:inline-block; width: calc(100% - 2.8rem);}
+.legend-con li span.chart-legend-label-text strong{float: right;}
+/*---chart---*/
+
+.recomboxmain .accordion-header .accordion-button {color: #000;font: 700 2.4rem/1 'Roboto', sans-serif;letter-spacing: 0;
+padding: 3.7rem 0;}
+.recomboxmain .accordion-button::after{content: "";position: absolute;left: inherit;top: 0px;bottom: 0;width: 1.4rem;height: 1.4rem;
+transform: rotate(180deg);right: 0px;margin: auto;
+display: inline-block;cursor: pointer;background: url(../img/svg/downarrow.svg) no-repeat;object-fit: contain;}
+.recomboxmain .accordion-button:not(.collapsed)::after{transform: rotate(0deg);}
+
+.recomboxmain .accordion-button{border: 0;background: transparent;padding: 0;padding-right: 1.5rem;
+box-shadow: none;}
+.recomboxmain .recomconview{padding: 0;border: 0;}
+.recomboxmain .recomviewcost:first-child{border-top: 0.2rem solid #eaeaea;}
+.recomboxmain .recomviewcost{border: 0;border-bottom: 0.2rem solid #eaeaea;}
+.recomboxmain .accordion-collapse{padding-bottom: 1.4rem;}
+.recombtn{margin-top: 3.9rem;}
+.recombtn .btn{width: 100%;}
+.recomoptibox{margin-bottom: 5.6rem;}
+
+.clickbelowSec{background: #4d76fe;padding: 3.1rem;margin-bottom: 2rem;}
+.clickbelowcon p{color: #fff;font: 400 1.8rem/1 'Roboto', sans-serif;letter-spacing: 0;text-align: center;
+margin-bottom: 3.3rem;}
+.clickprishabtn{font-size: 0;text-align: center;}
+.btn-clickprsh{border-radius: 0;min-width: 17.2rem;padding: 2rem 3.6rem;}
+.btn-clickprsh span{padding-right: 4.5rem;position: relative;}
+.btn-clickprsh span .icon{position: absolute;top: 0;right: 0;font-size: 2.5rem; transition: filter 0.4s ease-in-out;
+font-weight: 600;}
+.clickprishabtn .btn ~ .btn{margin-left: 3.7rem;}
+.btn-clickprsh.btn.btn-light:hover{border-color: #61dbff;background: #61dbff;color: #fff}
+
+
+.btn-clickprsh.sharebox{position: relative;overflow: inherit;}
+.sharebox:hover .dropdown-menu {display: block;top: 100%;}
+.sharebox .dropdown-menu{border:0;left: 50%; right: 0;transform: translateX(-50%);  padding:0;box-shadow:0 0 0.6rem 0 rgb(0 0 0 / 10%);
+border-radius: 0;top: 0;min-width: 20rem;transition: background 0.4s ease-in-out;}
+.sharebox .dropdown-menu:after{position:absolute;content:"";width:0;height:0;border-top:1rem solid #fff;right:0rem;left: 0; top:-1rem;bottom:0;border-left:1rem solid transparent;border-right:1rem solid transparent;transform:rotate(180deg);margin:0 auto;z-index:-2;
+transition: border 0.4s ease-in-out;}
+.sharebox .dropdown-item {padding:1.5rem 1.5rem; border-bottom: 0.1rem solid #f1f1f1;transition: all 0.4s ease-in-out;
+background: #fff;font: 400 1.6rem/1.4 'Poppins'; padding-left: 5rem;position: relative;}
+
+.sharebox .dropdown-item:hover,.sharebox .dropdown-item:focus{background-color: #f7f7f7;}
+.sharebox .dropdown-item:last-child{border-bottom: 0;}
+.sharebox .dropdown-item .icon{position: absolute;top: 1.5rem;left: 1.5rem;font-size: 2rem;}
+.sharebox .dropdown-item .icon-facebook{color: #334c8b;}
+.sharebox .dropdown-item .icon-instagram{color: #f6086d;}
+.sharebox .dropdown-item .icon-twitter{color: #16c6f9;}
+.sharebox .dropdown-item .icon-linkedin{color: #0081c4;}
+.sharebox .dropdown-item .icon-mail{color: #ff0000;}
+
+
+
+.legaldisclosu .accordion-header .accordion-button {color: #000;font: 700 2.4rem/1 'Roboto', sans-serif;letter-spacing: 0;
+padding: 0rem 0;padding-right: 2.5rem;display: inline-block;width: auto;}
+.legaldisclosu .accordion-button::after{content: "";position: absolute;left: inherit;top: 0px;bottom: 0;width: 1.4rem;height: 1.4rem;
+transform: rotate(180deg);right: 0px;margin: auto;
+display: inline-block;cursor: pointer;background: url(../img/svg/downarrow.svg) no-repeat;object-fit: contain;}
+.legaldisclosu .accordion-button:not(.collapsed)::after{transform: rotate(0deg);}
+
+.legaldisclosu .accordion-button{border: 0;background: transparent;padding: 0;padding-right: 1.5rem;
+box-shadow: none;}
+.legaldisclosu .recomconview{padding: 0;border: 0;}
+.legaldisclosu .accordion-collapse{padding-top: 2rem;}
+
+/*---refinance-calculator---*/
+
+/*---mortgage-calculator---*/
+
+
+.mortcalcuformain .mortformleft{width: 37%;}
+.mortcalcuformain{margin: 0 -8.85rem;}
+.mortcalcuformain .refiformcomman{padding: 0 8.85rem;}
+
+.mortrediomain{margin: 0;display: inline-block;position: absolute;right: 0;top: 0;}
+.mortrediomain .role-list{padding: 0;}
+.mortrediomain .custom-redio input[type="radio"] + label, .pure-radiobutton input[type="radio"] + label{width: 6.1rem;}
+.reficalcuformain .inputdoperField{padding-right: 13rem;}
+.reficalcuformain .inputField.inputperceField{padding-left: 1.7rem;padding-right: 0;}
+
+.checkboxmain{font-size: 0;}
+.checkboxmain .custom_checkbox{margin-bottom: 1.6rem;}
+.checkboxmain .custom_checkbox:last-child{margin-bottom: 0rem;}
+.checkboxmain .custom_checkbox label{margin-bottom: 0;}
+.custom_checkbox label span:before{border-color: #fff;}
+.custom_checkbox label span:after{left: 0px; top: 0; z-index: 2;}
+ .custom_checkbox label input[type="checkbox"]:checked+ span:before{background: #000000;}
+.custom_checkbox label input[type="checkbox"]{opacity: 0; position: absolute;}
+.custom_checkbox label span{position: relative;padding-left: 3rem;display: block;font: 400 1.8rem/1.2 'Roboto', sans-serif;
+color: #000;}
+.custom_checkbox label span:before{content: ""; position: absolute; left: 0; top: 0.1rem; width: 1.8rem; height: 1.8rem; background: #fff; border: 0.2rem solid #4d76fe; border-radius: 0; cursor: pointer;   -webkit-transition: background .3s; transition: background .3s; z-index: 1; margin: auto;}
+.custom_checkbox label span:after{content: ""; position: absolute; left: -0.1rem; top: -0.1rem; z-index: 2;}  
+.custom_checkbox label input[type="checkbox"]:checked+ span:before{background: #4a74fe; border: none;}
+.custom_checkbox label input[type="checkbox"]:checked+ span:after{-webkit-transform: translate(.25em,.33654em) rotate(-45deg); transform: translate(.25em,.33654em) rotate(-45deg); width: 1.1rem; height: 0.7rem; border: 0.3rem solid #fff; border-top-style: none; border-right-style: none;
+border-radius: 0.2rem;}
+.custom_checkbox label:focus .checkboximg{border: 0.1rem solid #4a74fe;}
+.custom_checkbox label input[type="checkbox"]:checked+ .checkboximg{border: 0.1rem solid #4a74fe;}
+
+.estimonpaymain{background: #f7f7f7;padding: 8.5rem 10rem;margin-bottom: 4.3rem;margin-top: 3rem;}
+.estimonpaybox{background: #fff;padding: 8.5rem 4.5rem;display: inline-block;width: 100%;}
+.estimonpaybox .estimontitle{display: block;font: 700 3.4rem/0.96 'Sofia Pro';letter-spacing: -0.2rem;color: #000;
+margin-bottom: 5rem;}
+.estimonchatcon .legend-con li{font: 400 1.8rem/1 'Roboto', sans-serif;padding-bottom: 4rem;}
+
+
+.card-black{background: #000;}
+.card-black.card .card-title{color: #fff;}
+.card-black.card p{color: #fff;}
+
+.mortgagecanvas-con .legend-con li span.chart-legend-label-text{width: auto;}
+.mortgagecanvas-con .legend-con li span.chart-legend-label-text strong{margin-left: 0.5rem;}
+.estimonchatcon{float: left;width: 27rem;}
+.mortgagecanvas-con{float: right;width: 57%;padding: 0;}
+.mortgagecanvas-con.canvas-con .canvas_total_sl{top: 43%;}
+.mortgagecanvas-con .canvas-con-inner{padding-bottom: 0;}
+.estimonchatcon .legend-con li span.chart-legend-label-text{width: auto;}
+.estimonchatcon .legend-con li span.chart-legend-label-text strong{float: none;}
+
+/*---mortgage-calculator---*/
+
+/*---What-Can-I-Afford-Calculator---*/
+
+.servicheckbox{margin-top: 0.9rem;}
+.reficalcol.affordbtn{margin-bottom: 5rem;}
+.affordimgbox{position: relative;display: block;width: 100%;max-width: 48.1rem;margin: auto;}
+.affordimgbox img{width: 100%;}
+.estimonpaybox.affestipaybox{padding: 5rem 3.5rem;}
+
+.priaffordboxmain{margin-top: 3rem;}
+.affordboxtitle{display: block;font: 700 3.4rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color: #000;
+text-align: center;margin-bottom: 2rem;}
+.affordboxtitle span{color: #4d76fe;display: block;}
+.affordcostitle{display: block;font: 700 1.8rem/1.3 'Roboto', sans-serif;color: #000;letter-spacing: 0;
+text-align: center;margin-bottom: 1.5rem;}
+.affordcostitle span{color: #4d76fe;display: block;}
+
+.paycostdetaile{height: 100%;border-right: 2px solid #eaeaea;}
+.paycostdetaile ul{font-size: 0;}
+.paycostdetaile ul li{margin-bottom: 1.4rem;}
+.paycostdetaile ul li b{font: 700 1.8rem/1.2 'Roboto', sans-serif;color: #000;display: block;margin-bottom: 0.5rem;}
+.paycostdetaile ul li p{display: block;font: 400 1.8rem/1.3 'Roboto', sans-serif;color: #000;letter-spacing: 0;margin-bottom: 0;}
+.paycostdetaile ul li p b{color: #4d76fe;display: inline-block;margin-bottom: 0;}
+.paycostdetaile ul li span{color: #4d76fe;font: 700 1.8rem/1.2 'Roboto', sans-serif;display: block;}
+.paycostdetleft{padding-right: 3rem;}
+.paycostdetright{padding-left: 4.3rem;border-right: 0;}
+
+/*---What-Can-I-Afford-Calculator---*/
+
+/*---blog-listing---*/
+
+.bloglistingSec{padding: 21.5rem 9rem;padding-bottom: 10rem;}
+.bloglistconbox{padding-left: 15.5rem;}
+.bloglistconbox .secTitle u{text-decoration-thickness: 6.5%;text-underline-offset: 1rem;}
+.search_box {width: 48rem;display: block;position: relative;}
+.search-form {display: block;width: 100%;position: relative;overflow: hidden;margin-bottom: 6rem;}
+.search-form label{display: block;}
+.search-form .search-field {background-color: transparent;position: relative;width: 100%;box-sizing: border-box;
+padding: 2rem 3.5rem;font: 800 1.6rem/1.4 'Poppins';color: #000;border:0.4rem solid #d3d3d3;border-radius: 5rem;
+height: 8.2rem;padding-right: 6rem;}
+.search-form .search-submit {position: absolute;right: 1rem;top: 0;bottom: 0;width: 4.8rem;background: url(../img/svg/search.svg) no-repeat center;
+background-size: 2.3rem;border: 0;outline: none;text-align: center;padding: 8%;font-size: 0;}
+
+.search-form .search-field::-webkit-input-placeholder{color: #000;}
+.search-form .search-field::-moz-placeholder{color: #000;}
+.search-form .search-field:-ms-input-placeholder {color: #000;}
+.search-form .search-field:-moz-placeholder {color: #000;}
+
+.resourcelistmain{margin-bottom: 6rem;}
+.resourcelistmain ul{font-size: 0;margin: 0 -2rem;}
+.resourcelistmain ul li{width: auto;display: inline-block;padding: 0 2rem;}
+.resourcelistmain ul li .btn{min-width: 20.9rem;font-weight: 800;letter-spacing: 0;padding: 2.6rem 2rem;}
+.bloglistingmain {margin: 0 -2rem;}
+.bloglistingmain .bloglist{margin-bottom: 4rem;}
+.faqinfomain{margin-top: 5rem;}
+.faqinfomain .faqinfotitle{font: 700 4rem/1.1 'Sofia Pro';color: #000;display: block;text-align: center;}
+.faqinfomain .faqinfotitle a{color: #4a74fe;transition: color 0.4s ease-in-out;}
+.faqinfomain .faqinfotitle a u{text-underline-offset: 0.5rem;}
+.faqinfomain .faqinfotitle a:hover{color: #000;}
+.bloglistingmain .blogbox{height: 100%;background: #f7f7f7;}
+/*---blog-listing---*/
+
+/*---blog-detail---*/
+
+.blogdetailSec{padding: 21.5rem 10rem;padding-bottom: 9rem;}
+.blogdetailSec .secHead{max-width: 80%;margin-bottom: 5rem;}
+.blogdetailSec .secHead .secTitle{line-height: 1;}
+.blogdetailSec .secTitle u{text-decoration-thickness: 6.5%;text-underline-offset: 1rem;}
+
+.blogdetailSec .datadmin{position: relative;display: block;padding-left: 2.8rem;font: 400 2.4rem/1.2 'Roboto', sans-serif;
+color: #000000;margin-bottom: 6rem;}
+.blogdetailSec .datadmin img{width: 1.8rem;height: 1.8rem;position: absolute;top: 0.4rem;left: 0;}
+.blogdetailSec .datadmin small{color: #4a74fe;}
+
+.blogdetailconleft{width: 70%;flex: 0 0 auto;padding-right: 8.5rem;}
+.blogdetailconright{width: 100%;height: 100%;}
+
+.freetoolsbox{padding: 7rem 8rem;background: #f3f3f3;margin-bottom: 4.4rem;}
+.freetoolsbox .freetooltitle, .freetoolsbox .widget-title{display: block;width: 100%;font: 700 8rem/0.9 'Sofia Pro';
+letter-spacing: -0.2rem;color: #000;margin-bottom: 4rem;}
+
+.freetoolist ul, .menu-free-tools-menu-container ul{font-size: 0;}
+.freetoolist ul li, .menu-free-tools-menu-container ul li{font: 400 3.7rem/1.2 'Roboto Condensed', sans-serif;padding: 0;letter-spacing: 0;
+display: block;width: 100%;/*margin-bottom: 1rem;*/}
+.freetoolist ul li:last-child, .menu-free-tools-menu-container ul li:last-child{margin-bottom: 0;}
+.freetoolist ul li a, .menu-free-tools-menu-container ul li a{transition: color 0.4s ease-in-out;}
+.freetoolist ul li a:hover, .menu-free-tools-menu-container ul li a:hover{color: #4a74fe;}
+
+.cardapplybox{padding: 5.5rem 4.8rem;padding-left: 7.7rem;background: #000;margin-bottom: 4.4rem;}
+.cardapplybox .card-head{font: 700 8rem/1.1 'Sofia Pro';letter-spacing: -0.4rem;color: #fff;margin-bottom: 4rem;
+padding-right: 8.5rem;position: relative;}
+.cardapplybox .card-head:before{content: ""; background: #4a74fe url(../img/svg/logo-shap.svg) no-repeat;
+width: 8.2rem;height: 8.2rem;position: absolute;top: 2rem;right: 0;border-radius: 3rem;object-fit: contain;
+background-size: 8.5rem;}
+.cardapplybox p{font: 400 1.6rem/1.2 'Roboto', sans-serif;color: #fff;margin-bottom: 5rem;max-width: 82%;}
+
+.relatedresourbox{background: #f3f3f3;padding: 7.7rem 6.5rem;}
+.relatedresourbox .relarestitle{font: 700 8rem/0.925 'Sofia Pro';letter-spacing: -0.4rem;color: #000;margin-bottom: 5rem;
+display: block;}
+
+.blogdeatconmain{margin-bottom: 10rem;}
+.relatdblogmain .bloglist{padding: 0;margin-bottom: 3.4rem;}
+.relatdblogmain .bloglist:last-child{margin-bottom: 0;}
+.relatdblogmain .blogcon .datadmin{font-size: 1.2rem;font-weight: 500;padding-left: 1.8rem;padding-bottom: 1rem;
+margin-bottom: 2rem;}
+.relatdblogmain .blogcon .datadmin img{width: 1.1rem;height: 1.1rem;top: 0.1rem;}
+.relatdblogmain .blogcon{padding: 1.5rem 2.1rem;padding-bottom: 2.5rem;background: #fff;}
+.relatdblogmain .blogcon .blogtitle{font-size: 2.5rem;letter-spacing: -0.1rem;margin-bottom: 1.5rem;}
+.relatdblogmain .blogcon p{margin-bottom: 1.5rem;}
+.relatdblogmain .btn.btn-outline{padding: 1.5rem 2rem;min-width: 15rem;letter-spacing: 0;font-size: 1.2rem;}
+
+.blogdetailSec .lastestblogSec .secHead{margin-bottom: 9rem;}
+.lastestblogmain{margin: 0 -1.25rem;}
+.lastestblogmain .bloglist{padding: 0 1.25rem;}
+.blogdetailSec .lastestblogSec .datadmin{padding-left: 2.8rem;font: 500 1.8rem/1.2 'Roboto', sans-serif;margin-bottom: 2rem;}
+.blogdetailSec .lastestblogSec .datadmin img{top: 0.1rem;}
+
+/*---blog-detail---*/
+
+/*---cmsCon---*/
+
+.cmsCon{display:block;width:100%;color:#000;}
+.cmsCon p{display:block;margin-bottom:2rem;
+color: #000;font: 400 1.6rem/1.2 'Roboto', sans-serif;}
+.cmsCon ul{list-style:none;font-size:0;display:inline-block}
+.cmsCon ul li{display:block;width:100%;font: 400 1.6rem/1.2 'Roboto', sans-serif;color:#000;margin-bottom:2rem;padding-left:1.1rem;position:relative}
+.cmsCon ul li:before{content:'';width:0.8rem;height:0.8rem;border:0.2rem solid #4a74fe;border-radius:50%;position:absolute;left:0;top:0.8rem}
+.cmsCon ul li:last-child{margin-bottom: 0;}
+
+.cmsCon h2{font: 700 5.2rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color:#000;display:block;margin-bottom: 3.5rem;
+padding-top: 1.5rem;}
+.cmsCon h3{font: 700 4.8rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color:#000;display:block;margin-bottom: 3.5rem;
+padding-top: 1.5rem;}
+.cmsCon h4{font: 700 4.4rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color:#000;display:block;margin-bottom: 3.5rem;
+padding-top: 1.5rem;}
+.cmsCon h5{font: 700 4rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color:#000;display:block;margin-bottom: 3.5rem;
+padding-top: 1.5rem;}
+.cmsCon h6{font: 700 3.6rem/1.1 'Sofia Pro';letter-spacing: -0.2rem;color:#000;display:block;margin-bottom: 3.5rem;
+padding-top: 1.5rem;}
+
+.cmsCon .alignleft{float: left; width: auto; max-width: 50%; margin: 0 3rem 3rem 0;}
+
+.cmsCon .alignright{float: right; width: auto; max-width: 50%; margin: 0 0 3rem 3rem;}
+
+.cmsCon .aligncenter{display: block; width: auto; max-width: 100%; margin: 0 auto 4rem auto; text-align: center;}
+
+.cmsCon ol{padding: 10px 0px;display: inline-block;}  
+
+.cmsCon ol li{position: relative;font: 400 1.6rem/1.2 'Roboto', sans-serif;color:#000;list-style: none;margin-bottom: 2rem;}
+.cmsCon ol li:before{counter-increment: cmscon-counter;content: "" counter(cmscon-counter) ".";line-height: 1.6;}
+
+.cmsCon ul.half li{width: 50%;display: inline-block;}
+
+.cmsCon b{margin-bottom: 0px;display: inline;}
+
+.cmsCon p a{transition: color 0.4s ease-in-out;color: #4a74fe;}
+.cmsCon p a:hover{color: #000;}
+.cmsCon p a.btn:hover{color:#000;}
+
+
+/*---cmsCon---*/
+
+/*---faq---*/
+
+
+.faqSec{padding: 21.5rem 16rem; padding-bottom: 16rem;}
+.faqSec .secHead .secTitle{font-size: 21.3rem;}
+.faqSec .secHead{margin-bottom: 8rem;}
+
+
+.faqsmain{max-width: 121.8rem;}
+.faqsmain .accordion-item {background: #fff;margin-bottom: 2.2rem;border:0;}
+.faqsmain .accordion-item .accordion-header .accordion-button {padding: 2rem 2.5rem;color: #fff;position: relative;cursor: pointer;
+border-radius: 0;background: #4a74fe;font: 700 2.8rem/1.2 'Sofia Pro';letter-spacing: -0.1rem;display: block;
+padding-right: 10rem;}
+.faqsmain .accordion-item:last-child{border-bottom: 0;}
+.faqsmain .collapse:not(.show){display: none;}
+.faqsmain .accordion-item .cmsCon {display: block;padding: 2rem 2.5rem;padding-right: 17rem;padding-bottom: 3.3rem;}
+.faqsmain .accordion-item .cmsCon p{font: 400 2.4rem/1.2 'Roboto', sans-serif;color: #000000;display: block;}
+.faqsmain .accordion-header{position: relative;}
+.faqsmain .accordion-button:not(.collapsed){background-color: transparent;box-shadow: none;}
+.faqsmain .accordion-button:focus{border-color: transparent;border:0;box-shadow: none;}
+.faqsmain .accordion-item .accordion-header .accordion-button.collapsed{color: #000;background: #f3f3f3;}
+
+.faqsmain .accordion-button::after{content: "";position: absolute;left: inherit;top: 0;bottom: 0;right: 5rem;margin: auto;
+display: inline-block;background-image: url(../img/svg/faqplus.svg);object-fit: contain;object-position: center;
+background-size: 4rem;background-repeat: no-repeat;width: 4rem;height: 4rem;}
+.faqsmain .accordion-button:not(.collapsed)::after{background-image: url(../img/svg/faqminus.svg);background-repeat: no-repeat;}
+
+.twoimgboxmain{font-size: 0;margin: 0 -1rem;}
+.twoimgbox{padding: 0 1rem;}
+.twoimgLeft{width: 46.8%;flex: 0 0 auto;}
+.twoimgRight{width: 100%;height: 100%;}
+.twoimgbox img{width: 100%;}
+/*---faq---*/
+
+/*---get-in-touch---*/
+
+.getintouchSec{padding: 21.5rem 16rem; padding-bottom: 0rem;}
+.getintouchSec .secHead .secTitle{font-size: 21.3rem;margin-bottom: 9.5rem;}
+.getintouchSec .secHead{margin-bottom: 0rem;}
+
+
+.getintouchLeft{width: 50%;flex: 0 0 auto;padding-right: 20.5rem;}
+.getintouchRight{width: 100%;height: 100%;}
+
+.touchformain{background: #f3f3f3;border:0.1rem solid #fbfbfb;padding: 7.4rem 8rem;}
+.getouchform{padding: 9.5rem 6.5rem;background: #fff;}
+.getouchform .secHead{margin-bottom: 4.7rem;margin-left: 1.6rem;}
+.getouchform .secHead .secTitle{margin-bottom: 3.5rem;font: 400 4.8rem/1.2 'Roboto Condensed', sans-serif;}
+.getouchform .secHead .secTitle b{font-weight: 700;}
+.getouchform .secHead p{font-size: 1.5rem;}
+
+.formfild{margin-bottom: 1.3rem;}
+.touchformbox .inputField{width: 100%;border: 0;background: #f7f7f7;padding: 2rem 3rem;
+font: 400 2.7rem/1.4 'Roboto Condensed', sans-serif;letter-spacing: -0.2rem; color: #000;min-height: 7.2rem;}
+.touchformbox .inputField.textareaField{height: 19.1rem;resize: none;}
+.touchformbox .formbtn{margin-left: 2.2rem;padding-top: 1.8rem;}
+.touchformbox .btn{padding: 2.5rem 3.5rem;min-width: 15.5rem;letter-spacing: 0;font-size: 1.4rem;}
+
+.touchformbox .inputField::-webkit-input-placeholder{color: #000;}
+.touchformbox .inputField::-moz-placeholder{color: #000;}
+.touchformbox .inputField:-ms-input-placeholder {color: #000;}
+.touchformbox .inputField:-moz-placeholder {color: #000;}
+
+.getouchinfomain{padding: 5rem 16rem; padding-bottom: 21.6rem;background-image: url(../img/get-in-touch-bannerimg.jpg);
+background-size: cover;object-position: center;display: block;width: 100%;background-repeat: no-repeat;
+margin-top: -37.4rem;}
+.getouchinfo{max-width: 59rem;margin-bottom: 45rem;}
+.getouchinfo p{color: #fff;}
+.getinfocalmailbox{margin-bottom: 10.2rem;display: inline-block;}
+.getinfocalmailbox a{font: 700 5.1rem/1.2 'Sofia Pro';letter-spacing: -0.2rem;display: block;
+transition: color 0.4s ease-in-out;color: #fff;}
+.getinfocalmailbox .call{margin-bottom: 1.5rem;}
+.getinfocalmailbox .email{font-size: 8.6rem;}
+.getinfocalmailbox a:hover{color: #4a74fe;}
+
+.getouchlocation{}
+.getouchlocation .getouchloctitle{font: 700 5.1rem/1.2 'Sofia Pro';letter-spacing: -0.2rem;display: block;
+color: #fff;margin-bottom: 3.5rem;}
+.getouchlocation ul{font-size: 0;display: inline-block;margin-left: -16rem;}
+.getouchlocation ul li{display: block;margin-bottom: 0.8rem;font: 700 2.8rem/1.2 'Sofia Pro';letter-spacing: -0.1rem;
+color: #fff;background:#4a74fe;padding: 2.5rem 17rem;padding-right: 14rem;transition: background 0.4s ease-in-out, color 0.4s ease-in-out;}
+.getouchlocation ul li:hover{color: #000;background: #fff;}
+.getouchlocation ul li:last-child{margin-bottom: 0;}
+
+/*---get-in-touch---*/
+
+/*---loan-right---*/
+
+.loanrightSec{padding: 25.5rem 22rem;padding-bottom: 0rem;padding-right: 14.3rem;}
+.loanrightSec .secHead{margin-bottom: 0;}
+.loanrightSec .secHead .secTitle{line-height: 1;letter-spacing: -0.4rem;margin-bottom: 0;font-size: 10rem;}
+.loanrightSec .secHead .secTitle u{color: #4a74fe;text-decoration-thickness: 6.5%;text-underline-offset: 1rem;}
+.loanLeft{width: 76%;flex: 0 0 auto;}
+.loanRight{width: 37rem;height: 100%;}
+.brmimgbox{border:1px solid #9fb3f3;background: #4a74fe;padding: 8.3rem;box-shadow: 3rem 3.6rem 8.585rem 1.515rem rgba(0, 0, 0, 0.09);}
+.brmimgbox img{width: 100%;margin: auto;border-radius: 30%;object-fit: cover;}
+
+.aboutloanSec{display: flex;width: 100%;align-items: center;}
+.aboutloanLeft{width: 45%;flex: 0 0 auto;}
+.aboutloanLeft img{width: 100%;}
+.aboutloanRight{width: 100%;height: 100%;}
+
+.aboutloancon{padding-left: 10.5rem;padding-right: 8.8rem;}
+.aboutloancon .aboutloantitle{font: 400 5.4rem/1.1 'Roboto Condensed', sans-serif;letter-spacing: -0.2rem;color: #000000;
+display: block;margin-bottom: 4.5rem;}
+.aboutloancon p{margin-bottom: 3.3rem;}
+.aboutloancon .btn{margin-top: 1.7rem;}
+
+.loantypeSec{display: flex;width: 100%;align-items: center;padding: 17rem 10.1rem;padding-bottom: 8rem;}
+.loantypeLeft{width: 51%;flex: 0 0 auto;}
+.loantypeRight{width: 100%;height: 100%;}
+.loantypeRight img{width: 100%;}
+.loantypecon{padding: 0 10rem;border-right: 0.3rem solid #e3e3e3;margin-right: 10.7rem;}
+.loantypecon .loantypetitle{display: block;width: 100%;font: 700 10rem/1.3 'Sofia Pro';color: #000;
+letter-spacing: -0.4rem;margin-bottom: 5.5rem;}
+.loantypelist{margin-bottom: 5rem;}
+.loantypelist ul{font-size: 0;}
+.loantypelist ul li{font: 400 5.4rem/1.2 'Roboto Condensed', sans-serif;padding: 0;letter-spacing: -0.3rem;
+display: block;width: 100%;/*margin-bottom: 1rem;*/}
+.loantypelist ul li:last-child{margin-bottom: 0;}
+.loantypelist ul li a{transition: color 0.4s ease-in-out;}
+.loantypelist ul li a.active, .loantypelist ul li a:hover{color: #4a74fe;}
+
+.loantypecon p{margin-bottom: 5rem;}
+
+.loan-rightpackSec{padding: 10.1rem;padding-bottom: 8.6rem;padding-top: 0;}
+
+/*---loan-right---*/
+
+/*---pagination---*/
+
+/*.pagination{display: block;text-align: center;}*/
+
+/*---pagination---*/
+
+/*---document-need---*/
+.documetneedSec{padding: 25.5rem 14.5rem;padding-bottom: 7.8rem;}
+.documetneedSec .secHead{margin-bottom: 10rem;}
+.documetneedSec .secHead .secTitle u {color: #4a74fe;text-decoration-thickness: 6.5%;text-underline-offset: 1rem;}
+.documetneedSec .secHead .secTitle{font-size: 10rem;}
+.documetneedSec .secHead p{max-width: 70%;}
+
+.documentmain{/*display: table;*/width: 100%;margin-bottom: 14.9rem;}
+.documentmain ul{display: flex;flex-wrap: wrap;font-size: 0;}
+.documentmain ul li{padding: 3.5rem 5rem; display: inline-block;color: #000;font: 400 2.4rem/1.2 'Roboto', sans-serif;
+width: 100%;border-right: 0.2rem solid #eaeaea;}
+.documentmain ul li:last-child{border-right: none;}
+.documentmain ul li:nth-child(1){max-width: 74%;}
+.documentmain ul li:nth-child(2){max-width: 13%;}
+.documentmain ul li:nth-child(3){max-width: 13%;}
+.documentmain .black-bg{background: #000;}
+.documentmain .black-bg li{color: #fff;}
+.documentmain .dark-bg{background: #eaeaea;}
+.documentmain ul.dark-bg li:nth-child(1){max-width: 100%;}
+.documentmain ul.documcon li{padding: 0;}
+.documentmain ul li p{border-bottom: 0.2rem solid #eaeaea;padding: 2rem 5rem;margin-bottom: 0;}
+/*.documentmain ul li p:last-child{border-bottom: none;}*/
+.yesbox{background: #4a74fe;padding: 2rem 5rem;height: 100%;border-bottom: 0.2rem solid #eaeaea;}
+.yesbox span{display: block;padding-left: 5rem;color: #fff;position: relative;top: 50%;	transform: translateY(-50%);
+line-height: 3.2rem;}
+.yesbox span:before{position: absolute;background-image: url(../img/svg/yesicon.svg);background-repeat: no-repeat;
+object-fit: contain;width: 3.2rem;height: 3.2rem;content: "";left: 0;top: 0;}
+.yesbox.nobox{background: #fff;}
+.yesbox.nobox span{color: #000;}
+.yesbox.nobox span:before{background-image: url(../img/svg/noicon.svg);}
+.documentmain ul.documhead li:nth-child(1){max-width: 100%;}
+.documetneedSec .clickbelowSec{margin-bottom: 0;}
+
+/*---document-need---*/
+
+
+
+ 
+
+
+
+
+@media only screen and (max-width: 1366px) {
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+	/*---about-us---*/
+
+	.innerBanner .bannerCon{max-width: 122rem;}
+	.whywebettitlebox .whywebettitle{font-size: 9rem;padding: 5rem;width: 35rem;}
+	.whywebetterstep{margin-bottom: 15rem;}
+	.servlocaSec{padding: 15rem 10rem;padding-bottom: 5rem}
+	.servlocaSec .secHead .secTitle{font-size: 9rem;letter-spacing: -0.4rem;}
+	.secHead .secheadright{padding-top: 3rem;}
+	.servilocaimg{padding-top: 12rem;}
+	.teamMemSec{padding: 12.7rem 10rem;padding-bottom: 6.2rem;}
+	.whywebettercon{padding-right: 14rem;padding-left: 5rem;}
+	
+
+	/*---about-us---*/
+
+	/*---team-member---*/
+
+	.teamemberdetSec{margin-top: 13.1rem;}
+
+	.tememheadbox{padding-top: 2rem;padding-bottom: 3rem;padding-left: 7rem;padding-right: 5rem;}
+	.tememheadbox .teamemtitle{margin-bottom: 2rem;}
+	.teamembiocon{padding: 5rem 7rem;}
+	.teamembiocon .teamembiotitle{margin-bottom: 2rem;}
+	.teamembiocon p{max-width: 100%;margin-bottom: 7rem;}
+	.teameminfoboxmain{margin: 0 -2rem;margin-bottom: 3rem;}
+	.teaminfobox{padding: 0 2rem;}
+	/*.teamembiocon{max-height: 62.7rem;}*/
+
+	/*---team-member---*/
+
+	/*---Buy-A-Home---*/
+
+.homePurchaseSec .homePurchaseCon{padding: 13rem 8rem;}
+.homePurchaseSec .homePurchaseCon .secHead .secTitle{font-size: 10.5rem;}
+.batterHome{padding: 10rem 12rem;}
+.commonSec.cardIconSec{padding-left: 5rem;padding-right: 5rem;}
+.card .card-body{padding: 6.2rem 5rem;}
+.card-body.card-bodypartwo{padding: 4rem 5rem; padding-left: 0;}
+.blogSec{padding: 10rem 5rem;}
+.blogcon p{font-size: 2rem;}
+
+	/*---Buy-A-Home---*/
+
+	/*---Refinance---*/
+
+.readyrefinaSec .secHead .secTitle{font-size: 9rem;}
+.readyrefinaSec{padding-top: 10rem;}
+
+	/*---Refinance---*/
+
+	/*---home---*/
+
+	.whybetterSec{padding: 10rem 10rem;}
+	.whybetterSec .secHead .secTitle{font-size: 10rem;}
+
+	/*---home---*/
+
+	/*---refinance-calculator---*/
+
+.reficalculSec{padding: 20rem 7rem;padding-bottom: 5rem;}
+.reficalculSec .blackbannerCon .bannerTitle{font-size: 8rem;}
+.recomoptiSec{padding: 0 7rem;}
+.recomoptiSec .secHead .secTitle{font-size: 8rem;}
+.commonSec.reficalcardSec{padding: 10rem 5rem;}
+.reficalcardSec .secHead .secTitle{font-size: 8rem;}
+
+.canvas-con .canvas_total_sl {letter-spacing: 0;}
+.canvas_price {padding-top: 10px;}
+
+	/*---refinance-calculator---*/
+
+	/*---mortgage-calculator---*/
+
+
+
+	/*---mortgage-calculator---*/
+
+	/*---blog-listing---*/
+
+.bloglistconbox{padding-left: 5rem;}
+
+	/*---blog-listing---*/
+
+	/*---blog-detail---*/
+
+.freetoolsbox{padding: 6rem 4rem;}
+.cardapplybox{padding: 5.5rem 4rem;}
+.cardapplybox p{font-size: 2rem;max-width: 100%;}
+.relatedresourbox{padding: 6rem 4rem;}
+.relatdblogmain .blogcon .datadmin{font-size: 1.8rem;padding-left: 2rem;}
+.relatdblogmain .blogcon .datadmin img{width: 1.5rem;height: 1.5rem;}
+.relatdblogmain .blogcon .blogtitle{font-size: 3rem;}
+.blogdetailSec{padding: 20rem 5rem;padding-bottom: 9rem;}
+.blogdeatconmain{margin-bottom: 5rem;}
+.blogdetailSec .lastestblogSec .datadmin{font-size: 2rem;}
+.blogdetailconleft{padding-right: 5rem;}
+.blogdetailSec .secHead .secTitle{font-size: 8rem;}
+
+
+	/*---blog-detail---*/
+
+	/*---cmsCon---*/
+
+	.cmsCon p{font-size: 2.4rem;}
+
+
+	/*---cmsCon---*/
+
+	/*---faq---*/
+.faqSec{padding: 21.5rem 5rem;padding-bottom: 9rem;}
+.faqSec .secHead .secTitle{font-size: 18rem;}
+.faqsmain .accordion-item .accordion-header .accordion-button{font-size: 3rem;}
+.faqsmain{max-width: 72%;}
+
+	/*---faq---*/
+
+	/*---get-in-touch---*/
+
+.getintouchSec{padding: 21.5rem 5rem;padding-bottom: 0;}
+.getouchinfomain{padding: 5rem 5rem;padding-bottom: 21.6rem;}
+.getintouchLeft{padding-right: 21rem;}
+.getouchform .secHead p{font-size: 2rem;}
+.getouchinfo{max-width: 70rem;}
+.getouchlocation ul{margin-left: -5rem;}
+.getouchlocation ul li{padding-left: 6rem;}
+
+	/*---get-in-touch---*/
+
+	/*---loan-right---*/
+
+.loantypeSec{padding: 17rem 5rem;padding-bottom: 8rem;}
+.loan-rightpackSec{padding: 5rem;padding-bottom: 8.6rem;padding-top: 0;}
+
+
+	/*---loan-right---*/
+
+/*---document-need---*/
+
+.documetneedSec{padding: 20rem 5rem;padding-bottom: 7.8rem;}
+.documentmain ul li{font-size: 3rem;}
+.documetneedSec .secHead p{max-width: 74%;}
+
+/*---document-need---*/
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+/*---about-us---*/
+
+.teamemberdetSec{margin-top: 12.9rem;}
+
+.expertSec.aboutexpertSec{background-position: left center;background-size: cover;}
+.whywebettercon{padding-right: 0rem;}
+.servlocaSec{padding: 15rem 4rem;padding-bottom: 5rem;}
+.servlocaSec .secHead p{max-width: 100%;}
+.teamMemSec{padding: 12.7rem 4rem;padding-bottom: 5rem;}
+.teamMemSec .secHead{margin-left: 22rem;}
+.teamemcon .teamemtitle{font-size: 4.5rem;margin-bottom: 1.5rem;}
+.teamemcon{padding: 2.5rem 3rem;}
+.teamemrow{margin: 0 -1rem;}
+.teamemcol{padding: 0 1rem;margin-bottom: 2rem;}
+.aboutwhatwestep{padding-top: 7rem;}
+
+/*---about-us---*/
+
+/*---team-member---*/
+
+.teamembiocon{max-height: 51rem;}
+.tememheadbox .teamemtitle{font-size: 6rem;}
+.teamembiocon{padding: 5rem 15px;}
+.tememheadbox{padding-left: 15px;padding-right: 15px;}
+.teamembiocon .teamembiotitle{font-size: 5rem;}
+.teamembiocon p{margin-bottom: 5rem;}
+/*.teaminfobox .btn-gradi{margin-right: 1rem;}*/
+.btn.btn-gradi{padding: 3rem 2rem;font-size: 1.8rem;}
+.teaminfobox .btn.btn-outline.btn-dark{padding-left: 1.5rem;padding-right: 1.5rem;font-size: 1.8rem;}
+		
+/*---team-member---*/
+
+/*---Buy-A-Home---*/
+
+.homePurchaseSec .homePurchaseCon .secHead .secTitle{font-size: 8rem;margin-bottom: 7rem;}
+.homePurchaseCon .secHead p{max-width: 100%;}
+.card.card-horizontal .card-head{width: 32%;font-size: 6rem;}
+.card .card-body{width: 68%;}
+.blogSec .secHead .secTitle{font-size: 8rem;}
+	
+/*---Buy-A-Home---*/
+
+/*---Refinance---*/
+
+.readyrefinaSec .secHead .secheadleft{padding-left: 0;}
+	
+/*---Refinance---*/
+
+/*---home---*/
+
+.whybetterSec{padding: 10rem 5rem;}
+.whybettbox .whybettrtitle{font-size: 4.5rem;}
+.whybettimg{margin-bottom: 3rem;}
+.whybettbox{padding-top: 26rem;}
+
+/*---home---*/
+
+/*---refinance-calculator---*/
+
+.recomboxmain{padding: 3.8rem 3.5rem;}
+.reficalcardSec .card.card-horizontal .card-head{width: 36%;}
+.reficalcardSec .card .card-body{width: 64%;padding: 4rem 4rem;}
+	
+/*---refinance-calculator---*/
+
+/*---mortgage-calculator---*/
+
+.mortcalcuformain{margin: 0 -5rem;}
+.mortcalcuformain .refiformcomman{padding: 0 5rem;}
+.estimonpaymain{padding: 5rem 4rem;}
+.estimonpaybox{padding: 6rem 4rem;}
+.estimonpaybox .estimontitle{margin-bottom: 4rem;}
+.estimonchatcon .legend-con li{padding-bottom: 3rem;}
+	
+/*---mortgage-calculator---*/
+
+/*---blog-listing---*/
+
+.bloglistingSec{padding: 19rem 5rem;padding-bottom: 10rem;}
+.bloglistconbox{padding-left: 0;}
+.search-form{margin-bottom: 5rem;}
+.resourcelistmain ul{margin: 0 -1rem;overflow: auto;white-space: nowrap;}
+.resourcelistmain ul li{padding: 0 1rem;white-space: normal;}
+.resourcelistmain ul li .btn:not(.btn-gradi):hover{transform: none;}
+.bloglistingmain{margin: 0 -1rem;}
+.bloglistingmain .bloglist{padding: 0 1rem;margin-bottom: 2rem;}
+	
+/*---blog-listing---*/
+
+/*---blog-detail---*/
+
+
+
+	
+/*---blog-detail---*/
+
+/*---get-in-touch---*/
+
+
+.getintouchSec .secHead .secTitle{font-size: 18rem;}
+.getouchform .secHead .secTitle{font-size: 4.8rem;}
+.getintouchSec .secHead{padding-right: 0;}
+.getintouchSec .secHead p{max-width: 100%;}
+.touchformain{padding: 5rem 4rem;}
+.getouchform{padding: 7rem 4rem;}
+.getouchinfo{max-width: 65rem;}
+.getouchlocation ul li{font-size: 3.3rem;}
+
+/*---get-in-touch---*/
+
+
+/*---loan-right---*/
+
+.loanrightSec{padding: 20rem 5rem;padding-bottom: 0;}
+.aboutloancon{padding: 0 5rem;}
+.aboutloanSec{padding-top: 5rem;}
+.loantypeSec{padding: 10rem 5rem;padding-bottom: 8rem;}
+.loantypecon{padding: 0 2rem;margin-right: 5rem;}
+.loantypecon .loantypetitle{font-size: 8rem;margin-bottom: 4rem;}
+.loantypelist ul li{font-size: 5rem;}
+.loantypelist{margin-bottom: 4rem;}
+.loantypecon p{margin-bottom: 4rem;}
+
+
+/*---loan-right---*/
+
+/*---document-need---*/
+.documentmain ul li:nth-child(1){max-width: 70%;}
+.documentmain ul li:nth-child(2){max-width: 15%;}
+.documentmain ul li:nth-child(3){max-width: 15%;}
+.documentmain ul li{padding: 3rem 3.5rem;}
+.documentmain ul li p{padding: 2rem 3.5rem;}
+.documetneedSec .secHead p{max-width: 100%;}
+
+/*---document-need---*/
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+/*---about-us---*/
+.whowebannimgSec{padding-bottom: 50rem;}
+.whywebettitlebox{margin-bottom: 15rem;}
+.whywebettitlebox .whywebettitle{font-size: 6.5rem;padding: 3rem;width: 25rem;right: 4rem;letter-spacing: -0.4rem;}
+.whywebettercon{padding-left: 15px;padding-top: 4rem;}
+.whywebetterstep ul li{font: 400 4rem/1.2 'Roboto Condensed', sans-serif;}
+.whywebetterstep{margin-bottom: 4rem;}
+.commonSec.whywebetterSec{padding-bottom: 50px !important;}
+.servlocaSec{padding: 50px 15px;padding-bottom: 20px;}
+.secHead .secheadleft{padding-right: 0;}
+.secHead .secheadleft{width: 100%;}
+.servlocaSec .secHead .secTitle{font-size: 7rem;}
+.servilocaimg{padding-top: 5rem;}
+.licensedlist ul{text-align: left;margin: 0 -1rem;}
+.licensedlist ul li{padding: 1rem 1rem;}
+.teamMemSec{padding: 50px 15px; padding-bottom:20px;}
+.teamMemSec .secHead{margin-left: 4rem;margin-bottom: 4rem;max-width: 100%;}
+.teamMemSec .secHead .secTitle{font-size: 8rem;letter-spacing: -0.4rem;}
+.aboutwhatwestep ul li{width: 100%;margin-bottom: 3rem;}
+.aboutwhatwestep ul li:last-child{margin-bottom: 0;}
+.aboutwhatwestep{padding-top: 5rem;}
+.commonSec.aboutwhatwedoSec{padding-bottom: 50px;}
+.aboutwestepbox{padding-left: 9rem;}
+
+
+/*---about-us---*/
+
+/*---team-member---*/
+
+.teamemhead{max-width: 100%;}
+.tememheadbox .teamemtitle{font-size: 5rem;margin-bottom: 1.5rem;}
+.teamembiocon{padding: 20px 15px;}
+.teamembiocon p{margin-bottom: 4rem;}
+.teameminfoboxmain{margin-bottom: 0rem;}
+.teamembiocon{max-height: inherit;}
+.teaminfobox .teaminfoec{font-size: 2.5rem;}
+.teamemleftcol{width: 100%;}
+.teamemdetarrowleft{width: 12px;height: 12px;border-left: 4px solid #000;border-bottom: 4px solid #000;}
+.teaminfobox{margin-bottom: 4rem;}
+.btn.btn-gradi{padding: 3rem 3rem;}
+.teaminfobox .btn.btn-outline.btn-dark{padding-left: 3rem;padding-right: 3rem;}
+.teamemcon{bottom: 0;}
+.btn.applybtn {padding: 2.6rem 3rem; font-size: 1.8rem;}
+		
+/*---team-member---*/
+
+/*---Buy-A-Home---*/
+
+.ctaBox{padding: 2.5rem 2rem;max-width: 260px;margin: auto; margin-bottom: 4rem;}
+.ctaBox .btn{padding: 2.5rem 3rem;}
+.ctaBox .ctaTitle{font-size: 4rem;}
+
+.homePurchaseSec{padding-top: 10rem;padding-bottom: 6rem;padding-right: 0;}
+
+.homePurchaseSec .homePurchaseCon{width: 100%;}
+.homePurchaseSec .homePurchaseImg{width: 100%;}
+.homePurchaseSec .homePurchaseCon{padding: 8rem 15px;}
+.homePurchaseSec .homePurchaseCon .secHead .secTitle{font-size: 6rem;margin-bottom: 5rem;}
+.batterHome{padding: 5rem 15px;}
+.batterHome .secHead .secTitle{font-size: 6rem;}
+.ourProcess{width: 100%;margin-top: 0;}
+.ourProcess li{font-size: 4rem;padding-left: 11rem;}
+.ourProcess li:before{width: 8.3rem;height: 8.3rem;line-height: 8.3rem;}
+.ourProcess li:not(:last-child):after{height: 8.5rem;margin-top: 4.85rem;left: 4rem;}
+.commonSec.cardIconSec{padding-left: 15px;padding-right: 15px;}
+.cardcol{margin-bottom: 3rem;}
+.cardcol:last-child{margin-bottom: 0rem;}
+.blogSec{padding: 8rem 15px;}
+.blogSec .secHead{margin-left: 0;margin-bottom: 5rem;}
+.blogSec .secHead .secTitle{font-size: 6rem;margin-bottom: 5rem;}
+.aboutvisitbtn{margin-top: 5rem;}
+#singleton .fiturees{margin: auto;}
+.blogSec .secHead{max-width: 100%;}
+
+	
+/*---Buy-A-Home---*/
+
+/*---Refinance---*/
+
+.readyrefinaSec{padding:40px 15px;padding-bottom: 0;}
+.readyrefinaSec .secHead{margin-bottom: 8rem;}
+.readyrefinaSec .secHead .secTitle{font-size: 7rem;}
+.readyrefinaSec .secHead p{max-width: 100%;}
+.card .card-body{padding: 4rem 4rem;}
+#singleton .fiturees li{padding-left: 4.5rem;font-size: 3rem;}
+#singleton .fiturees li:before{width: 3rem;height: 3rem;top: 0.1rem;}
+.blogcon p{font-size: 3rem;}
+.refinance-page .bannerCon .bannerTitle{text-align: center;font-size: 8rem;}
+
+	
+/*---Refinance---*/
+
+/*---home---*/
+
+.whybetterSec{padding: 40px 15px;}
+.whybetterSec .secHead .secTitle{margin-left: 0;font-size: 8rem;}
+.whybetterSec .secHead{margin-bottom: 7rem;}
+.whybettcol{margin-bottom: 4rem;}
+.whybettcol:last-child{margin-bottom: 0;}
+.whybettbox{padding: 30px 15px;}
+.whybettimg img{width: 7rem;height: 7rem;}
+.whybetternote{max-width: 100%;padding: 0rem 0px;padding-bottom: 0;}
+.whybettimgbox{display: none;}
+.whybettbox .whybettrtitle{font-size: 4rem;}
+	
+/*---home---*/
+
+/*---refinance-calculator---*/
+
+.reficalculSec{padding: 15rem 15px;padding-bottom: 5rem;}
+.reficalculSec .bannerCon{padding: 0;}
+.reficalculSec .blackbannerCon .bannerTitle{font-size: 7rem;}
+.reficalcuformain .reficalformleft{width: 100%;}
+.recomoptiSec{padding: 0 15px;}
+.recomoptiSec .secHead .secTitle{font-size: 7rem;}
+.clickbelowcon p{font: 400 2.8rem/1.2 'Roboto', sans-serif;}
+.btn-clickprsh span .icon{top: 0.2rem}
+.commonSec.reficalcardSec{padding: 7rem 15px;}
+.cardIconSec .secHead{margin-bottom: 6rem;}
+.reficalcardSec .secHead .secTitle{font-size: 7rem;}
+.reficalcuformain label{font-size: 2.8rem;margin-bottom: 1.5rem;}
+.reficalcuformain .inputField{font-size: 2.8rem;/*min-height: 40px;*/}
+
+.canvas-con .canvas_total_sl {font: 600 2rem/0.9 'Sofia Pro';}
+
+.recomconhead b, .recomconpayment ul li, .legend-con li, .recomboxmain .accordion-header .accordion-button {font-size: 2.8rem;}
+.recomboxmain .accordion-button::after {width: 1.8rem; height:1.8rem;}
+
+.legaldisclosu .accordion-header .accordion-button {font-size: 2.8rem;}
+.legaldisclosu .accordion-button::after {width: 1.8rem; height: 1.8rem;}
+.recombtn .btn{font-size: 2rem;padding: 2.9rem 4.5rem;}
+
+	
+/*---refinance-calculator---*/
+
+/*---mortgage-calculator---*/
+
+.custom-redio .checkbox-text-right{font-size: 2.8rem;}
+.custom_checkbox label span{font-size: 3rem;line-height: 1;}
+.custom_checkbox label span:before{width: 2.2rem;height: 2.2rem;}
+.custom_checkbox label input[type="checkbox"]:checked+ span:after{width: 1.5rem;height: 0.8rem;border:0.4rem solid #fff;
+left: -0.4rem;top: -0.2rem; border-top-style: none;border-right-style: none;}
+.estimonpaymain{padding: 20px 15px;}
+.estimonchatcon{float: none;width: 100%;text-align: center;}
+.mortgagecanvas-con{width: 100%;}
+.estimonchatcon .legend-con{display: inline-block;text-align: center;}
+.estimonchatcon .legend-con li{text-align: left;font-size: 3rem;}
+.estimonpaybox .estimontitle{font-size: 4.5rem;}
+.mortgagecanvas-con.canvas-con .canvas_total_sl{font-size: 3.2rem;}
+.legend-con li span.chart-legend{width: 2rem;height: 2rem;}
+
+/*---mortgage-calculator---*/
+
+/*---What-Can-I-Afford-Calculator---*/
+
+.affordcostitle{font-size: 2.8rem;}
+.paycostdetaile{border-right: 0;}
+.paycostdetleft{padding-right: 0;}
+.paycostdetright{padding-left: 0;}
+.affordboxtitle{font-size: 3.8rem;}
+.paycostdetaile ul li b{font-size: 2.8rem;}
+.paycostdetaile ul li span{font-size: 2.8rem;}
+.paycostdetaile ul li p{font-size: 2.8rem;}
+.servicheckbox{margin-top: 1.5rem;}
+
+
+/*---What-Can-I-Afford-Calculator---*/
+
+/*---blog-listing---*/
+
+.search-form .search-field{font-size: 2rem;}
+.bloglistingSec{padding: 16rem 15px;padding-bottom: 8rem;}
+.search-form{margin-bottom: 4rem;}
+.bloglistconbox .secHead{margin-bottom: 7rem;}
+.resourcelistmain ul li .btn{min-width: auto;padding: 2rem 4rem;font-size: 2rem;}
+.blogcon .datadmin{font-size: 2.4rem;}
+.blogcon .datadmin img{top: 0.2rem;}
+.resourcelistmain ul{margin: 0 -15px;padding: 0 15px;}
+	
+/*---blog-listing---*/
+
+/*---blog-detail---*/
+
+.blogdetailSec .secHead{max-width: 100%;}
+.blogdetailSec .secHead .secTitle{font-size: 6rem;}
+.blogdetailSec .datadmin{font-size: 2.8rem;margin-bottom: 4rem;}
+.blogdetailSec .datadmin img{width: 2rem;height: 2rem;}
+.blogdetailconleft{padding-right: 0;width: 100%;}
+.freetoolsbox{padding: 4rem 4rem;}
+.freetoolsbox .freetooltitle, .freetoolsbox .widget-title{font-size: 6rem;}
+.cardapplybox .card-head{font-size: 6rem;margin-bottom: 5rem;}
+.relatedresourbox .relarestitle{font-size: 6rem;}
+.cardapplybox{padding: 4rem 4rem;}
+.relatedresourbox{padding: 4rem 15px;}
+.cardapplybox .card-head:before{top: 1rem;}
+.relatdblogmain .blogcon .datadmin{font-size: 2.2rem;padding-left: 3rem;}
+.relatdblogmain .blogcon .datadmin img{width: 2rem;height: 2rem;}
+.relatdblogmain .blogcon .blogtitle{font-size: 4rem;}
+.blogdetailSec .lastestblogSec .datadmin{font-size: 2.2rem;padding-left: 3rem;}
+.blogdetailSec .lastestblogSec .datadmin img{width: 2rem;height: 2rem;}
+.blogdetailSec .lastestblogSec .secHead{margin-bottom: 8rem;}
+
+.relatdblogmain .bloglist{margin-bottom: 0;}
+.relatdblogmain .slick-dots li button{background: #f9f9f9;}
+.relatdblogmain .slick-dots li.slick-active button, .relatdblogmain .slick-dots li button:hover{background: #61dbff;}
+	
+/*---blog-detail---*/
+
+/*---cmsCon---*/
+
+.cmsCon p{font-size: 2.8rem;}
+
+/*---cmsCon---*/
+
+/*---faq---*/
+
+.faqSec .secHead .secTitle{font-size: 12rem;}
+.faqSec{padding: 16rem 15px;padding-bottom: 4rem;}
+.faqSec .secHead{margin-bottom: 7rem;}
+.faqsmain{max-width: 100%;}
+.faqsmain .accordion-item .accordion-header .accordion-button{font-size: 3.2rem;padding-right: 7rem;}
+.faqsmain .accordion-item .cmsCon p{font-size: 3rem;}
+.faqsmain .accordion-item .cmsCon{padding-right: 2.5rem;}
+.faqsmain .accordion-button::after{right: 2.5rem;}
+.twoimgboxmain.d-md-flex{display: flex!important;}
+
+
+/*---faq---*/
+
+/*---get-in-touch---*/
+
+.getintouchSec{padding: 16rem 15px;padding-bottom: 6rem;}
+.getintouchLeft{width: 100%;}
+.getintouchSec .secHead .secTitle{font-size: 10rem;margin-bottom: 5rem;}
+.getintouchSec .secHead{margin-bottom: 5rem;}
+.getintouchboxmain{margin: 0 -15px;}
+.getouchform{padding: 15px 15px;}
+.touchformain{padding: 20px 12px;}
+.getouchform .secHead{margin-left: 0;}
+.getouchinfomain{margin-top: 0;}
+.getouchform .secHead p{font-size: 3rem;}
+.getouchform .secHead .secTitle{font-size: 6rem;}
+.touchformbox .btn{font-size: 2rem;}
+.touchformbox .btn{max-width: 17rem;}
+.getouchinfo{margin-bottom: 5rem;}
+.getouchinfomain{padding: 5rem 15px;}
+.getinfocalmailbox .email{font-size: 5rem;}
+.getouchinfo{max-width: 100%;}
+.getouchlocation ul{margin-left: -3rem;}
+.getouchlocation ul li{padding-left: 4rem;padding-right: 4rem;font-size: 3.5rem;letter-spacing: 0;}
+.getintouchSec .secHead{padding: 0 15px;}
+.getouchform .secHead{padding: 0;}
+.getintouchSec{padding-bottom: 0;}
+
+/*---get-in-touch---*/
+
+/*---loan-right---*/
+.loanrightSec{padding: 16rem 15px;padding-bottom: 0rem;}
+.loanLeft{width: 100%;}
+.brmimgbox{display: none;}
+.aboutloanSec{display: block;}
+.aboutloanSec{padding-top: 6rem;}
+.aboutloanLeft{width: 100%;margin-bottom: 5rem;}
+.aboutloancon{padding: 0 15px;}
+.aboutloancon .aboutloantitle{margin-bottom: 3rem;}
+.loantypeSec{padding: 40px 15px;display: block;}
+.loantypeLeft{width: 100%;flex: inherit;}
+.loantypecon{border:0;padding: 0;margin: 0;padding-bottom: 5rem;}
+.loan-rightpackSec{padding: 5rem 3rem;padding-top: 0;}
+.loanrightSec .secHead .secTitle{font-size: 7rem;}
+
+
+/*---loan-right---*/
+
+/*---document-need---*/
+.documetneedSec{padding: 16rem 15px;padding-bottom: 5rem;}
+.documetneedSec .secHead .secTitle{font-size: 8rem;margin-bottom: 5rem;}
+.documetneedSec .secHead{margin-bottom: 7rem;}
+.documentmain{margin: 0 -15px;width: auto; margin-bottom: 7rem;white-space: nowrap;overflow: auto;}
+.documentmain ul{white-space: normal;}
+.documentmain ul li:nth-child(1){max-width: calc(100% - 140px);}
+.documentmain ul li:nth-child(2){max-width: 70px;}
+.documentmain ul li:nth-child(3){max-width: 70px;}
+.documentmain ul li{padding: 3rem 1.5rem;font-size: 12px;}
+.documentmain ul li p{padding: 2rem 1.5rem;font-size: 12px;}
+.yesbox span{padding-top: 5rem;font-size: 12px;padding-left: 0;text-align: center;}
+.yesbox span:before{right: 0;margin: auto;}
+.yesbox{padding: 2rem 3rem;}
+
+
+
+/*---document-need---*/
+
+
+.scrollTop span{padding: 0.4rem;}
+
+}
+
+
+@media only screen and (max-width: 568px) {
+.recomopticol {margin-bottom: 20px;}
+}
+
+
+
+@media only screen and (max-width: 479px) {
+
+.canvas-con .canvas_total_sl {top: 36%; font: 600 2.8rem/0.9 'Sofia Pro';}
+
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+	/*---about-us---*/
+
+	.teamemcon{padding: 2.5rem 2rem;}
+
+	/*---about-us---*/
+
+	/*---Buy-A-Home---*/
+
+	.ctaboxcol{width: 100%;}
+
+	
+
+	/*---Buy-A-Home---*/
+
+
+}
+
+
+
+/* common css for screen size between 568 to 767 */
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+	/*---about-us---*/
+
+	.whywebettercon{padding-left: 4rem;padding-top: 0;}
+	.commonSec.whywebetterSec{padding-bottom: 0 !important;}
+	.aboutwhatwestep ul li{width: 50%;}
+	.aboutwhatwestep ul li:last-child{margin-bottom: 3rem;}
+
+	/*---about-us---*/
+
+	/*---team-member---*/
+	.teamemleftcol{width: 45%;}
+	.teamemberdetSec .d-md-flex{display: flex!important;}
+
+	.teamembiocon{max-height: 51rem;}
+		
+	/*---team-member---*/
+
+	/*---Buy-A-Home---*/
+
+	.homePurchaseSec{flex-flow: wrap;padding-right: 4rem;}
+	.homePurchaseSec .homePurchaseCon{width: 62%;}
+	.homePurchaseSec .homePurchaseImg{width: 38%;}
+
+	.ourProcess{width: 71%;margin-top: -5rem;}
+	
+	/*---Buy-A-Home---*/
+
+	/*---refinance-calculator---*/
+
+	
+	
+	/*---refinance-calculator---*/
+
+	/*---mortgage-calculator---*/
+
+	.estimonchatcon {float: left;width: 40%;}
+	.estimonchatcon{text-align: left;}
+	.mortgagecanvas-con {float: right;width: 57%;}
+
+	/*---mortgage-calculator---*/
+
+	/*---What-Can-I-Afford-Calculator---*/
+
+	
+	.paycostdetaile{border-right: 2px solid #eaeaea;}
+	.paycostdetleft {padding-right: 3rem;}
+	.paycostdetright {padding-left: 4.3rem;border-right: 0;}
+
+	/*---What-Can-I-Afford-Calculator---*/
+
+	/*---blog-detail---*/
+
+
+.relatdblogmain{margin: 0 -1.25rem}
+.relatdblogmain .bloglist{padding: 0 1.25rem;margin-bottom: 0;}
+
+	/*---blog-detail---*/
+
+	/*---loan-right---*/
+.loanLeft{width: 76%;}
+.loanrightSec .d-md-flex{display: flex!important;}
+.loanRight{display: block;}
+.brmimgbox{padding: 7rem;}
+.aboutloanSec{display: flex;}
+.aboutloanLeft{width: 45%;}
+.loantypeSec{display: flex;}
+.loantypeLeft{width: 51%;flex: 0 0 auto;}
+.loantypecon{padding: 0 2rem;margin-right: 5rem;border-right: 0.3rem solid #e3e3e3;padding-bottom: 0;}
+.loantypecon .loantypetitle{font-size: 7rem;}
+.loantypelist ul li{font-size: 4rem;}
+
+	/*---loan-right---*/
+
+	
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+
+	/*---home---*/
+
+	.whybettimgbox{display: block;}
+	.whybetternote{padding-top: 5rem;}
+	.whybettcol{margin-bottom: 0;}
+	.whybettbox{padding-top: 25rem;}
+
+	/*---home---*/
+
+}
