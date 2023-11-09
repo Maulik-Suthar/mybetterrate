@@ -1,1 +1,36 @@
-test
+sass --watch input.scss output.css
+
+LP
+2H6NXW1!Nb&S
+
+maulik.dgrooar@gmail.com
+m@uliK@007
+
+https://github.com/login
+user : Maulik-Suthar
+pass : m@uliK@007
+
+
+Git
+
+git add .
+
+git commit -m  ' '
+
+git push origin maulik-dev
+
+git pull origin main-branch
+----------------------------------
+
+Main branch to merge maulik-dev
+
+git checkout main
+
+git merge maulik-dev
+
+--------------------------------------
+
+People add request
+
+Settings > Collaborators
+
